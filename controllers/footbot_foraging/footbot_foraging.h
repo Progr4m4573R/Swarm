@@ -46,18 +46,6 @@ class CFootBotForaging : public CCI_Controller {
 public:
 
    /*
-    * This structure holds data about food collecting by the robots
-    */
-   struct SFoodData {
-      bool HasFoodItem;      // true when the robot is carrying a food item
-      size_t FoodItemIdx;    // the index of the current food item in the array of available food items
-      size_t TotalFoodItems; // the total number of food items carried by this robot during the experiment
-
-      SFoodData();
-      void Reset();
-   };
-
-   /*
     * The following variables are used as parameters for the
     * diffusion algorithm. You can set their value in the <parameters>
     * section of the XML configuration file, under the
@@ -114,66 +102,6 @@ public:
       void Init(TConfigurationNode& t_tree);
    };
 
-   /*
-    * Contains all the state information about the controller.
-    */
-   struct SStateData {
-      /* The three possible states in which the controller can be */
-      enum EState {
-         STATE_RESTING = 0,
-         STATE_EXPLORING,
-         STATE_RETURN_TO_NEST
-      } State;
-
-      /* True when the robot is in the nest */
-      bool InNest;
-
-      /* Initial probability to switch from resting to exploring */
-      Real InitialRestToExploreProb;
-      /* Current probability to switch from resting to exploring */
-      Real RestToExploreProb;
-      /* Initial probability to switch from exploring to resting */
-      Real InitialExploreToRestProb;
-      /* Current probability to switch from exploring to resting */
-      Real ExploreToRestProb;
-      /* Used as a range for uniform number generation */
-      CRange<Real> ProbRange;
-      /* The increase of ExploreToRestProb due to the food rule */
-      Real FoodRuleExploreToRestDeltaProb;
-      /* The increase of RestToExploreProb due to the food rule */
-      Real FoodRuleRestToExploreDeltaProb;
-      /* The increase of ExploreToRestProb due to the collision rule */
-      Real CollisionRuleExploreToRestDeltaProb;
-      /* The increase of RestToExploreProb due to the social rule */
-      Real SocialRuleRestToExploreDeltaProb;
-      /* The increase of ExploreToRestProb due to the social rule */
-      Real SocialRuleExploreToRestDeltaProb;
-      /* The minimum number of steps in resting state before the robots
-         starts thinking that it's time to move */
-      size_t MinimumRestingTime;
-      /* The number of steps in resting state */
-      size_t TimeRested;
-      /* The number of exploration steps without finding food after which
-         a foot-bot starts thinking about going back to the nest */
-      size_t MinimumUnsuccessfulExploreTime;
-      /* The number of exploration steps without finding food */
-      size_t TimeExploringUnsuccessfully;
-      /* If the robots switched to resting as soon as it enters the nest,
-         there would be overcrowding of robots in the border between the
-         nest and the rest of the arena. To overcome this issue, the robot
-         spends some time looking for a place in the nest before finally
-         settling. The following variable contains the minimum time the
-         robot must spend in state 'return to nest' looking for a place in
-         the nest before switching to the resting state. */
-      size_t MinimumSearchForPlaceInNestTime;
-      /* The time spent searching for a place in the nest */
-      size_t TimeSearchingForPlaceInNest;
-
-      SStateData();
-      void Init(TConfigurationNode& t_node);
-      void Reset();
-   };
-
 public:
 
    /* Class constructor. */
@@ -209,49 +137,7 @@ public:
     */
    virtual void Destroy() {}
 
-   /*
-    * Returns true if the robot is currently exploring.
-    */
-   inline bool IsExploring() const {
-      return m_sStateData.State == SStateData::STATE_EXPLORING;
-   }
-
-   /*
-    * Returns true if the robot is currently resting.
-    */
-   inline bool IsResting() const {
-      return m_sStateData.State == SStateData::STATE_RESTING;
-   }
-
-   /*
-    * Returns true if the robot is currently returning to the nest.
-    */
-   inline bool IsReturningToNest() const {
-      return m_sStateData.State == SStateData::STATE_RETURN_TO_NEST;
-   }
-
-   /*
-    * Returns the food data
-    */
-   inline SFoodData& GetFoodData() {
-      return m_sFoodData;
-   }
-
 private:
-
-   /*
-    * Updates the state information.
-    * In pratice, it sets the SStateData::InNest flag.
-    * Future, more complex implementations should add their
-    * state update code here.
-    */
-   void UpdateState();
-
-   /*
-    * Calculates the vector to the light. Used to perform
-    * phototaxis and antiphototaxis.
-    */
-   CVector2 CalculateVectorToLight();
 
    /*
     * Calculates the diffusion vector. If there is a close obstacle,
@@ -269,19 +155,9 @@ private:
    void SetWheelSpeedsFromVector(const CVector2& c_heading);
 
    /*
-    * Executes the resting state.
-    */
-   void Rest();
-
-   /*
     * Executes the exploring state.
     */
    void Explore();
-
-   /*
-    * Executes the return to nest state.
-    */
-   void ReturnToNest();
 
 private:
 
@@ -300,25 +176,10 @@ private:
    /* Pointer to the foot-bot motor ground sensor */
    CCI_FootBotMotorGroundSensor* m_pcGround;
 
-   /* The random number generator */
-   CRandom::CRNG* m_pcRNG;
-
-   /* Used in the social rule to communicate the result of the last
-    * exploration attempt */
-   enum ELastExplorationResult {
-      LAST_EXPLORATION_NONE = 0,    // nothing to report
-      LAST_EXPLORATION_SUCCESSFUL,  // the last exploration resulted in a food item found
-      LAST_EXPLORATION_UNSUCCESSFUL // no food found in the last exploration
-   } m_eLastExplorationResult;
-
-   /* The controller state information */
-   SStateData m_sStateData;
    /* The turning parameters */
    SWheelTurningParams m_sWheelTurningParams;
    /* The diffusion parameters */
    SDiffusionParams m_sDiffusionParams;
-   /* The food data */
-   SFoodData m_sFoodData;
 
 };
 
