@@ -65,11 +65,7 @@
   <!-- ****************** -->
   <loop_functions library="build/loop_functions/foraging_loop_functions/libforaging_loop_functions"
                   label="foraging_loop_functions">
-    <foraging items="15"
-              radius="0.1"
-              energy_per_item="1000"
-              energy_per_walking_robot="1"
-              output="foraging.txt" />
+    <foraging output="foraging.txt" />
   </loop_functions>
 
   <!-- *********************** -->
@@ -156,7 +152,6 @@
           <placement index="0" position="0,0,4.34" look_at="0,0,0" up="1,0,0" lens_focal_length="20" />
         </placements>
       </camera>
-      <user_functions label="foraging_qt_user_functions" />
     </qt-opengl>
   </visualization>
 
