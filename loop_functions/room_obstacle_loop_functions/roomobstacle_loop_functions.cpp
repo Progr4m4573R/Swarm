@@ -1,54 +1,44 @@
-#include "room_obstacle_loop_functions.h"
+#include "roomobstacle_loop_functions.h"
 #include <argos3/core/simulator/simulator.h>
 #include <argos3/core/utility/configuration/argos_configuration.h>
 #include <argos3/plugins/robots/foot-bot/simulator/footbot_entity.h>
-#include <controllers/footbot_foraging/footbot_foraging.h>
+#include <controllers/footbot_roomobstacle/footbot_roomobstacle.h>
 
 /****************************************/
 /****************************************/
 
-CRoomobstacleLoopFunctions::CForagingLoopFunctions() :
-   m_cForagingArenaSideX(-0.9f, 1.7f),
-   m_cForagingArenaSideY(-1.7f, 1.7f),
+CRoomobstacleLoopFunctions::CRoomobstacleLoopFunctions() :
+   m_cRoomobstacleArenaSideX(-0.9f, 1.7f), //set arena sizes again?
+   m_cRoomobstacleArenaSideY(-1.7f, 1.7f),
    m_pcFloor(NULL),
-   m_pcRNG(NULL),
-   m_unCollectedFood(0),
-   m_nEnergy(0),
-   m_unEnergyPerFoodItem(1),
-   m_unEnergyPerWalkingRobot(1) {
+   m_pcRNG(NULL),//not sure what this does
+{
 }
 
 /****************************************/
 /****************************************/
 
-void CForagingLoopFunctions::Init(TConfigurationNode& t_node) {
+void CRoomobstacleLoopFunctions::Init(TConfigurationNode& t_node) {
    try {
-      TConfigurationNode& tForaging = GetNode(t_node, "foraging");
+      TConfigurationNode& tRoomobstacle = GetNode(t_node, "room_obstacle");
       /* Get a pointer to the floor entity */
       m_pcFloor = &GetSpace().GetFloorEntity();
-      /* Get the number of food items we want to be scattered from XML */
-      UInt32 unFoodItems;
-      GetNodeAttribute(tForaging, "items", unFoodItems);
-      /* Get the number of food items we want to be scattered from XML */
-      GetNodeAttribute(tForaging, "radius", m_fFoodSquareRadius);
-      m_fFoodSquareRadius *= m_fFoodSquareRadius;
-      /* Create a new RNG */
-      m_pcRNG = CRandom::CreateRNG("argos");
+
       /* Distribute uniformly the items in the environment */
       for(UInt32 i = 0; i < unFoodItems; ++i) {
          m_cFoodPos.push_back(
-            CVector2(m_pcRNG->Uniform(m_cForagingArenaSideX),
-                     m_pcRNG->Uniform(m_cForagingArenaSideY)));
+            CVector2(m_pcRNG->Uniform(m_cRoomobstacleArenaSideX),
+                     m_pcRNG->Uniform(m_cRoomobstacleArenaSideY)));
       }
       /* Get the output file name from XML */
-      GetNodeAttribute(tForaging, "output", m_strOutput);
+      GetNodeAttribute(tRoomobstacle, "robot_perormance", m_strOutput);
       /* Open the file, erasing its contents */
       m_cOutput.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
       m_cOutput << "# clock\twalking\tresting\tcollected_food\tenergy" << std::endl;
-      /* Get energy gain per item collected */
-      GetNodeAttribute(tForaging, "energy_per_item", m_unEnergyPerFoodItem);
-      /* Get energy loss per walking robot */
-      GetNodeAttribute(tForaging, "energy_per_walking_robot", m_unEnergyPerWalkingRobot);
+      /* Get how long it takes each bot to reach a destination */
+      /* Get the id of each bot */
+      /*get the start position and end position of each bot*/
+	
    }
    catch(CARGoSException& ex) {
       THROW_ARGOSEXCEPTION_NESTED("Error parsing loop functions!", ex);
@@ -58,10 +48,9 @@ void CForagingLoopFunctions::Init(TConfigurationNode& t_node) {
 /****************************************/
 /****************************************/
 
-void CForagingLoopFunctions::Reset() {
+void CRoomobstacleLoopFunctions::Reset() {
    /* Zero the counters */
-   m_unCollectedFood = 0;
-   m_nEnergy = 0;
+	num_bot_at_destination = 0
    /* Close the file */
    m_cOutput.close();
    /* Open the file, erasing its contents */
@@ -69,15 +58,15 @@ void CForagingLoopFunctions::Reset() {
    m_cOutput << "# clock\twalking\tresting\tcollected_food\tenergy" << std::endl;
    /* Distribute uniformly the items in the environment */
    for(UInt32 i = 0; i < m_cFoodPos.size(); ++i) {
-      m_cFoodPos[i].Set(m_pcRNG->Uniform(m_cForagingArenaSideX),
-                        m_pcRNG->Uniform(m_cForagingArenaSideY));
+      m_cFoodPos[i].Set(m_pcRNG->Uniform(m_cRoomobstacleArenaSideX),
+                        m_pcRNG->Uniform(m_cRoomobstacleArenaSideY));
    }
 }
 
 /****************************************/
 /****************************************/
 
-void CForagingLoopFunctions::Destroy() {
+void CRoomobstacleLoopFunctions::Destroy() {
    /* Close the file */
    m_cOutput.close();
 }
@@ -85,30 +74,22 @@ void CForagingLoopFunctions::Destroy() {
 /****************************************/
 /****************************************/
 
-CColor CForagingLoopFunctions::GetFloorColor(const CVector2& c_position_on_plane) {
-   if(c_position_on_plane.GetX() < -1.0f) {
-      return CColor::GRAY50;
-   }
-   for(UInt32 i = 0; i < m_cFoodPos.size(); ++i) {
-      if((c_position_on_plane - m_cFoodPos[i]).SquareLength() < m_fFoodSquareRadius) {
-         return CColor::BLACK;
-      }
-   }
-   return CColor::WHITE;
-}
 
-/****************************************/
-/****************************************/
 
-void CForagingLoopFunctions::PreStep() {
+void CRoomobstacleLoopFunctions::PreStep() {
+/*Things to add*/
+
+//check if a robot has reached a destination 
+//check if the robot state has changed/ change a robot state after they reach a destination
+
+
    /* Logic to pick and drop food items */
    /*
     * If a robot is in the nest, drop the food item
     * If a robot is on a food item, pick it
     * Each robot can carry only one food item per time
     */
-   UInt32 unWalkingFBs = 0;
-   UInt32 unRestingFBs = 0;
+
    /* Check whether a robot is on a food item */
    CSpace::TMapPerType& m_cFootbots = GetSpace().GetEntitiesByType("foot-bot");
 
@@ -167,14 +148,11 @@ void CForagingLoopFunctions::PreStep() {
          }
       }
    }
-   /* Update energy expediture due to walking robots */
-   m_nEnergy -= unWalkingFBs * m_unEnergyPerWalkingRobot;
+
    /* Output stuff to file */
    m_cOutput << GetSpace().GetSimulationClock() << "\t"
              << unWalkingFBs << "\t"
-             << unRestingFBs << "\t"
-             << m_unCollectedFood << "\t"
-             << m_nEnergy << std::endl;
+ << std::endl;
 }
 
 /****************************************/
