@@ -1,0 +1,5 @@
+add_library(footbot_roomobstacle MODULE footbot_roomobstacle.h footbot_roomobstacle.cpp)
+target_link_libraries(footbot_roomobstacle
+  argos3core_simulator
+  argos3plugin_simulator_footbot
+  argos3plugin_simulator_genericrobot)

@@ -1,0 +1,81 @@
+{
+	"BUILD_DIR" : "/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/id_loop_functions_autogen",
+	"CMAKE_BINARY_DIR" : "/home/stephen/Desktop/Swarm/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/stephen/Desktop/Swarm/loop_functions/id_loop_functions",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/stephen/Desktop/Swarm",
+	"HEADERS" : 
+	[
+		[
+			"/home/stephen/Desktop/Swarm/loop_functions/id_loop_functions/id_qtuser_functions.h",
+			"Mu",
+			"EWIEGA46WW/moc_id_qtuser_functions.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/id_loop_functions_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/id_loop_functions_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"id_loop_functions_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions",
+		"/home/stephen/Desktop/Swarm/loop_functions/id_loop_functions",
+		"/home/stephen/Desktop/Swarm",
+		"/usr/include/lua5.3",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/id_loop_functions_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/stephen/Desktop/Swarm/loop_functions/id_loop_functions/id_qtuser_functions.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}
