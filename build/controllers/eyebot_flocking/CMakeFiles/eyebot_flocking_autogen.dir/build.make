@@ -55,7 +55,7 @@ include controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_autogen.dir/progr
 
 controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target eyebot_flocking"
-	cd /home/stephen/Desktop/Swarm/build/controllers/eyebot_flocking && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_autogen.dir/AutogenInfo.json ""
+	cd /home/stephen/Desktop/Swarm/build/controllers/eyebot_flocking && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_autogen.dir/AutogenInfo.json Release
 
 eyebot_flocking_autogen: controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_autogen
 eyebot_flocking_autogen: controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_autogen.dir/build.make

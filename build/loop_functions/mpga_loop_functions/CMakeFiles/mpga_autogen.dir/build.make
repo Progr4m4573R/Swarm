@@ -55,7 +55,7 @@ include loop_functions/mpga_loop_functions/CMakeFiles/mpga_autogen.dir/progress.
 
 loop_functions/mpga_loop_functions/CMakeFiles/mpga_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target mpga"
-	cd /home/stephen/Desktop/Swarm/build/loop_functions/mpga_loop_functions && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/loop_functions/mpga_loop_functions/CMakeFiles/mpga_autogen.dir/AutogenInfo.json ""
+	cd /home/stephen/Desktop/Swarm/build/loop_functions/mpga_loop_functions && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/loop_functions/mpga_loop_functions/CMakeFiles/mpga_autogen.dir/AutogenInfo.json Release
 
 mpga_autogen: loop_functions/mpga_loop_functions/CMakeFiles/mpga_autogen
 mpga_autogen: loop_functions/mpga_loop_functions/CMakeFiles/mpga_autogen.dir/build.make

@@ -55,7 +55,7 @@ include loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.di
 
 loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target id_loop_functions"
-	cd /home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/AutogenInfo.json ""
+	cd /home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/AutogenInfo.json Release
 
 id_loop_functions_autogen: loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen
 id_loop_functions_autogen: loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/build.make

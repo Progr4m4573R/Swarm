@@ -55,7 +55,7 @@ include controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol_autog
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target footbot_manualcontrol"
-	cd /home/stephen/Desktop/Swarm/build/controllers/footbot_manualcontrol && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol_autogen.dir/AutogenInfo.json ""
+	cd /home/stephen/Desktop/Swarm/build/controllers/footbot_manualcontrol && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol_autogen.dir/AutogenInfo.json Release
 
 footbot_manualcontrol_autogen: controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol_autogen
 footbot_manualcontrol_autogen: controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol_autogen.dir/build.make

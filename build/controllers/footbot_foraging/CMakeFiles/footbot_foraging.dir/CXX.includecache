@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/stephen/Desktop/Swarm/build/controllers/footbot_foraging/footbot_foraging_autogen/mocs_compilation.cpp
-
 /home/stephen/Desktop/Swarm/controllers/footbot_foraging/footbot_foraging.cpp
 footbot_foraging.h
 /home/stephen/Desktop/Swarm/controllers/footbot_foraging/footbot_foraging.h

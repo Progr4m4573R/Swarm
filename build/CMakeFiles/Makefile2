@@ -372,6 +372,7 @@ embedding/mpga/clean: embedding/mpga/CMakeFiles/mpga_phototaxis_autogen.dir/clea
 
 # Recursive "all" directory target.
 loop_functions/all: loop_functions/foraging_loop_functions/all
+loop_functions/all: loop_functions/room_obstacle_loop_functions/all
 loop_functions/all: loop_functions/mpga_loop_functions/all
 loop_functions/all: loop_functions/custom_distributions_loop_functions/all
 loop_functions/all: loop_functions/trajectory_loop_functions/all
@@ -382,6 +383,7 @@ loop_functions/all: loop_functions/manualcontrol_loop_functions/all
 
 # Recursive "preinstall" directory target.
 loop_functions/preinstall: loop_functions/foraging_loop_functions/preinstall
+loop_functions/preinstall: loop_functions/room_obstacle_loop_functions/preinstall
 loop_functions/preinstall: loop_functions/mpga_loop_functions/preinstall
 loop_functions/preinstall: loop_functions/custom_distributions_loop_functions/preinstall
 loop_functions/preinstall: loop_functions/trajectory_loop_functions/preinstall
@@ -392,6 +394,7 @@ loop_functions/preinstall: loop_functions/manualcontrol_loop_functions/preinstal
 
 # Recursive "clean" directory target.
 loop_functions/clean: loop_functions/foraging_loop_functions/clean
+loop_functions/clean: loop_functions/room_obstacle_loop_functions/clean
 loop_functions/clean: loop_functions/mpga_loop_functions/clean
 loop_functions/clean: loop_functions/custom_distributions_loop_functions/clean
 loop_functions/clean: loop_functions/trajectory_loop_functions/clean
@@ -497,6 +500,25 @@ loop_functions/mpga_loop_functions/clean: loop_functions/mpga_loop_functions/CMa
 loop_functions/mpga_loop_functions/clean: loop_functions/mpga_loop_functions/CMakeFiles/mpga_autogen.dir/clean
 
 .PHONY : loop_functions/mpga_loop_functions/clean
+
+#=============================================================================
+# Directory level rules for directory loop_functions/room_obstacle_loop_functions
+
+# Recursive "all" directory target.
+loop_functions/room_obstacle_loop_functions/all: loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/all
+
+.PHONY : loop_functions/room_obstacle_loop_functions/all
+
+# Recursive "preinstall" directory target.
+loop_functions/room_obstacle_loop_functions/preinstall:
+
+.PHONY : loop_functions/room_obstacle_loop_functions/preinstall
+
+# Recursive "clean" directory target.
+loop_functions/room_obstacle_loop_functions/clean: loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/clean
+loop_functions/room_obstacle_loop_functions/clean: loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/clean
+
+.PHONY : loop_functions/room_obstacle_loop_functions/clean
 
 #=============================================================================
 # Directory level rules for directory loop_functions/trajectory_loop_functions
@@ -1167,6 +1189,61 @@ loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions_autoge
 .PHONY : loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions_autogen.dir/clean
 
 #=============================================================================
+# Target rules for target loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir
+
+# All Build rule for target.
+loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/all: controllers/footbot_roomobstacle/CMakeFiles/footbot_roomobstacle.dir/all
+loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/all: loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/all
+	$(MAKE) -f loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/build.make loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/depend
+	$(MAKE) -f loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/build.make loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=79,80,81 "Built target room_obstacle_loop_functions"
+.PHONY : loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/all
+
+# Build rule for subdir invocation for target.
+loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stephen/Desktop/Swarm/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stephen/Desktop/Swarm/build/CMakeFiles 0
+.PHONY : loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/rule
+
+# Convenience name for target.
+room_obstacle_loop_functions: loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/rule
+
+.PHONY : room_obstacle_loop_functions
+
+# clean rule for target.
+loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/clean:
+	$(MAKE) -f loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/build.make loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/clean
+.PHONY : loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/clean
+
+#=============================================================================
+# Target rules for target loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir
+
+# All Build rule for target.
+loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/all: controllers/footbot_roomobstacle/CMakeFiles/footbot_roomobstacle.dir/all
+	$(MAKE) -f loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/build.make loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/depend
+	$(MAKE) -f loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/build.make loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=82 "Built target room_obstacle_loop_functions_autogen"
+.PHONY : loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stephen/Desktop/Swarm/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stephen/Desktop/Swarm/build/CMakeFiles 0
+.PHONY : loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/rule
+
+# Convenience name for target.
+room_obstacle_loop_functions_autogen: loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/rule
+
+.PHONY : room_obstacle_loop_functions_autogen
+
+# clean rule for target.
+loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/clean:
+	$(MAKE) -f loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/build.make loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/clean
+.PHONY : loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/clean
+
+#=============================================================================
 # Target rules for target loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir
 
 # All Build rule for target.
@@ -1338,7 +1415,7 @@ loop_functions/custom_distributions_loop_functions/CMakeFiles/custom_distributio
 loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/all: loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/all
 	$(MAKE) -f loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/build.make loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/depend
 	$(MAKE) -f loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/build.make loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=79,80,81,82 "Built target trajectory_loop_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=83,84,85,86 "Built target trajectory_loop_functions"
 .PHONY : loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1365,7 +1442,7 @@ loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.di
 loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/all:
 	$(MAKE) -f loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/build.make loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/depend
 	$(MAKE) -f loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/build.make loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=83 "Built target trajectory_loop_functions_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=87 "Built target trajectory_loop_functions_autogen"
 .PHONY : loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/all
 
 # Build rule for subdir invocation for target.

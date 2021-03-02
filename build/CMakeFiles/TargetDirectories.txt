@@ -52,6 +52,10 @@
 /home/stephen/Desktop/Swarm/build/loop_functions/foraging_loop_functions/CMakeFiles/edit_cache.dir
 /home/stephen/Desktop/Swarm/build/loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir
 /home/stephen/Desktop/Swarm/build/loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions_autogen.dir
+/home/stephen/Desktop/Swarm/build/loop_functions/room_obstacle_loop_functions/CMakeFiles/edit_cache.dir
+/home/stephen/Desktop/Swarm/build/loop_functions/room_obstacle_loop_functions/CMakeFiles/rebuild_cache.dir
+/home/stephen/Desktop/Swarm/build/loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir
+/home/stephen/Desktop/Swarm/build/loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir
 /home/stephen/Desktop/Swarm/build/loop_functions/mpga_loop_functions/CMakeFiles/rebuild_cache.dir
 /home/stephen/Desktop/Swarm/build/loop_functions/mpga_loop_functions/CMakeFiles/edit_cache.dir
 /home/stephen/Desktop/Swarm/build/loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir

@@ -55,7 +55,7 @@ include embedding/mpga/CMakeFiles/mpga_phototaxis_autogen.dir/progress.make
 
 embedding/mpga/CMakeFiles/mpga_phototaxis_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stephen/Desktop/Swarm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target mpga_phototaxis"
-	cd /home/stephen/Desktop/Swarm/build/embedding/mpga && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/embedding/mpga/CMakeFiles/mpga_phototaxis_autogen.dir/AutogenInfo.json ""
+	cd /home/stephen/Desktop/Swarm/build/embedding/mpga && /usr/bin/cmake -E cmake_autogen /home/stephen/Desktop/Swarm/build/embedding/mpga/CMakeFiles/mpga_phototaxis_autogen.dir/AutogenInfo.json Release
 
 mpga_phototaxis_autogen: embedding/mpga/CMakeFiles/mpga_phototaxis_autogen
 mpga_phototaxis_autogen: embedding/mpga/CMakeFiles/mpga_phototaxis_autogen.dir/build.make

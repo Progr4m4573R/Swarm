@@ -423,6 +423,32 @@ foraging_loop_functions_autogen/fast:
 .PHONY : foraging_loop_functions_autogen/fast
 
 #=============================================================================
+# Target rules for targets named room_obstacle_loop_functions
+
+# Build rule for target.
+room_obstacle_loop_functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 room_obstacle_loop_functions
+.PHONY : room_obstacle_loop_functions
+
+# fast build rule for target.
+room_obstacle_loop_functions/fast:
+	$(MAKE) -f loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/build.make loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions.dir/build
+.PHONY : room_obstacle_loop_functions/fast
+
+#=============================================================================
+# Target rules for targets named room_obstacle_loop_functions_autogen
+
+# Build rule for target.
+room_obstacle_loop_functions_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 room_obstacle_loop_functions_autogen
+.PHONY : room_obstacle_loop_functions_autogen
+
+# fast build rule for target.
+room_obstacle_loop_functions_autogen/fast:
+	$(MAKE) -f loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/build.make loop_functions/room_obstacle_loop_functions/CMakeFiles/room_obstacle_loop_functions_autogen.dir/build
+.PHONY : room_obstacle_loop_functions_autogen/fast
+
+#=============================================================================
 # Target rules for targets named mpga_phototaxis_loop_functions
 
 # Build rule for target.
@@ -636,6 +662,8 @@ help:
 	@echo "... footbot_roomobstacle_autogen"
 	@echo "... foraging_loop_functions"
 	@echo "... foraging_loop_functions_autogen"
+	@echo "... room_obstacle_loop_functions"
+	@echo "... room_obstacle_loop_functions_autogen"
 	@echo "... mpga_phototaxis_loop_functions"
 	@echo "... mpga"
 	@echo "... mpga_phototaxis_loop_functions_autogen"

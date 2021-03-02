@@ -47,6 +47,15 @@
 
   </controllers>
 
+
+  <!-- ****************** -->
+  <!-- * Loop functions * -->
+  <!-- ****************** -->
+  <loop_functions library="build/loop_functions/room_obstacle_loop_functions/libroom_obstacle_loop_functions"
+                  label="room_obstacle_loop_functions">
+    <room_obstacle output="robot_perormance.txt" />
+  </loop_functions>
+
   <!-- *********************** -->
   <!-- * Arena configuration * -->
   <!-- *********************** -->
@@ -123,8 +132,9 @@
     <qt-opengl>
       <camera>
         <placement idx="0"
-                   position="5.33539,5.60355,1.06253"
-                   look_at="4.70428,4.92503,0.686605"
+                   position="0.33539,0.60355,4.06253"
+                   look_at="0.70428,0.92503,0.686605"
+                   up = "1,0,0"
                    lens_focal_length="20" />
       </camera>
     </qt-opengl>

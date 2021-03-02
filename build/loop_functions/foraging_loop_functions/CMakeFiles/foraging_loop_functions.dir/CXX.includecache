@@ -26,8 +26,6 @@ argos3/plugins/robots/foot-bot/control_interface/ci_footbot_motor_ground_sensor.
 argos3/core/utility/math/rng.h
 -
 
-/home/stephen/Desktop/Swarm/build/loop_functions/foraging_loop_functions/foraging_loop_functions_autogen/mocs_compilation.cpp
-
 /home/stephen/Desktop/Swarm/loop_functions/foraging_loop_functions/foraging_loop_functions.cpp
 foraging_loop_functions.h
 /home/stephen/Desktop/Swarm/loop_functions/foraging_loop_functions/foraging_loop_functions.h

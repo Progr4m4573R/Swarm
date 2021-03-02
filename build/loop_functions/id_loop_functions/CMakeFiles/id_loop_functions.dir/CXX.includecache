@@ -6,15 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/stephen/Desktop/Swarm/build/loop_functions/id_loop_functions/id_loop_functions_autogen/mocs_compilation.cpp
-
-/home/stephen/Desktop/Swarm/loop_functions/id_loop_functions/id_qtuser_functions.cpp
-id_qtuser_functions.h
-/home/stephen/Desktop/Swarm/loop_functions/id_loop_functions/id_qtuser_functions.h
-
-/home/stephen/Desktop/Swarm/loop_functions/id_loop_functions/id_qtuser_functions.h
-argos3/plugins/simulator/visualizations/qt-opengl/qtopengl_user_functions.h
--
-argos3/plugins/robots/foot-bot/simulator/footbot_entity.h
--
-
