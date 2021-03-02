@@ -3,6 +3,7 @@
 #include <argos3/core/utility/configuration/argos_configuration.h>
 #include <argos3/plugins/robots/foot-bot/simulator/footbot_entity.h>
 #include <controllers/footbot_roomobstacle/footbot_roomobstacle.h>
+#include <argos3/plugins/simulator/entities/light_entity.h>
 
 /****************************************/
 /****************************************/
@@ -68,8 +69,10 @@ void CRoomobstacleLoopFunctions::PreStep() {
 
    CSpace::TMapPerType& m_cFootbots = GetSpace().GetEntitiesByType("foot-bot");
 
-
-
+   for(CSpace::TMapPerType::iterator it = m_cFootbots.begin();
+       it != m_cFootbots.end();
+       ++it)
+   {
       /* Get handle to foot-bot entity */
       CFootBotEntity& cFootBot = *any_cast<CFootBotEntity*>(it->second);
 
@@ -79,17 +82,16 @@ void CRoomobstacleLoopFunctions::PreStep() {
                cFootBot.GetEmbodiedEntity().GetOriginAnchor().Position.GetY());
 
      /*Get handle to light entity*/
-     m_pcLight& cLight = *any_cast<m_pcLight*>(it->second);
+     CLightEntity& light = dynamic_cast<CLightEntity&>(GetSpace().GetEntity("light"));
      /*get the position of the light*/	
      CVector2 lightPos;
-     lightPos.set(cLight.GetEmbodiedEntity().GetOriginAnchor().Position.GetX()
-                  cLight.GetEmbodiedEntity().GetOriginAnchor().Position.GetY());
+     lightPos.Set(light.GetPosition().GetX(),
+                  light.GetPosition().GetY());
      
       m_cOutput <<"Clock: "<< GetSpace().GetSimulationClock() << ",";
       m_cOutput <<"Robot ID: "<< cFootBot.GetId() << ",";
       m_cOutput <<"Robot position: " <<cPos << std::endl;
-      m_cOutput <<"Light position: "<< lightPos << std::end1;
-
+      m_cOutput <<"Light position: "<< lightPos << std::endl;
 
    for(CSpace::TMapPerType::iterator it = m_cFootbots.begin();
        it != m_cFootbots.end();
@@ -97,13 +99,14 @@ void CRoomobstacleLoopFunctions::PreStep() {
    {
       
       if (cPos.GetX() && cPos.GetY() <= lightPos.GetX() && lightPos.GetY()){
-      m_cOutput <<"Robot " <<cFootBot.GetID() << ", "<< "Reached the light at position: " << cPos << "Operation took: print time taken here" <<std::endl;
+      m_cOutput <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << "Operation took: print time taken here" <<std::endl;
       }
       else{
 	m_cOutput << "Robots in hot pursuit"<<std::endl;
       }
    }
     
+  }
 }
 
 /****************************************/

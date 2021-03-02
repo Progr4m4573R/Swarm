@@ -1,876 +1,4755 @@
-1,fb0,1.19598,1.17992
-1,fb1,1.57883,1.44171
-1,fb2,1.7393,1.99868
-2,fb0,1.19486,1.17992
-2,fb1,1.58562,1.43597
-2,fb2,1.7393,1.99868
-3,fb0,1.19361,1.17993
-3,fb1,1.59294,1.43076
-3,fb2,1.7393,1.99868
-4,fb0,1.19236,1.17997
-4,fb1,1.60056,1.42612
-4,fb2,1.7393,1.99868
-5,fb0,1.19111,1.18003
-5,fb1,1.60849,1.42188
-5,fb2,1.7393,1.99868
-6,fb0,1.18986,1.18011
-6,fb1,1.61669,1.41803
-6,fb2,1.73408,2.00241
-7,fb0,1.18861,1.18022
-7,fb1,1.62511,1.41451
-7,fb2,1.72894,2.00665
-8,fb0,1.18737,1.18035
-8,fb1,1.6337,1.4113
-8,fb2,1.72447,2.01086
-9,fb0,1.18613,1.1805
-9,fb1,1.64244,1.40836
-9,fb2,1.72057,2.01492
-10,fb0,1.18489,1.18067
-10,fb1,1.65132,1.40564
-10,fb2,1.71717,2.01879
-11,fb0,1.18366,1.18086
-11,fb1,1.66031,1.40312
-11,fb2,1.71418,2.02244
-12,fb0,1.18243,1.18108
-12,fb1,1.6694,1.40076
-12,fb2,1.71155,2.02586
-13,fb0,1.1812,1.18131
-13,fb1,1.67858,1.39854
-13,fb2,1.70922,2.02904
-14,fb0,1.17998,1.18157
-14,fb1,1.68783,1.39633
-14,fb2,1.70715,2.032
-15,fb0,1.17876,1.18185
-15,fb1,1.69713,1.3941
-15,fb2,1.70633,2.0332
-16,fb0,1.17754,1.18216
-16,fb1,1.70651,1.39186
-16,fb2,1.70568,2.03417
-17,fb0,1.17634,1.18248
-17,fb1,1.71596,1.3896
-17,fb2,1.70504,2.03511
-18,fb0,1.17514,1.18283
-18,fb1,1.72496,1.38744
-18,fb2,1.70439,2.03606
-19,fb0,1.17394,1.18319
-19,fb1,1.73317,1.38548
-19,fb2,1.7037,2.03702
-20,fb0,1.17275,1.18358
-20,fb1,1.74069,1.38368
-20,fb2,1.70298,2.03803
-21,fb0,1.17157,1.18399
-21,fb1,1.74764,1.38202
-21,fb2,1.7022,2.03909
-22,fb0,1.1704,1.18442
-22,fb1,1.75409,1.3804
-22,fb2,1.70135,2.0402
-23,fb0,1.16923,1.18487
-23,fb1,1.76009,1.37878
-23,fb2,1.70043,2.04138
-24,fb0,1.16808,1.18535
-24,fb1,1.76571,1.37717
-24,fb2,1.69942,2.04261
-25,fb0,1.16693,1.18584
-25,fb1,1.77098,1.37556
-25,fb2,1.69831,2.0439
-26,fb0,1.16579,1.18635
-26,fb1,1.77593,1.37395
-26,fb2,1.6982,2.04402
-27,fb0,1.16466,1.18688
-27,fb1,1.78063,1.37232
-27,fb2,1.6982,2.04402
-28,fb0,1.16354,1.18744
-28,fb1,1.78511,1.37068
-28,fb2,1.6982,2.04402
-29,fb0,1.16243,1.18801
-29,fb1,1.78939,1.36901
-29,fb2,1.6982,2.04402
-30,fb0,1.16133,1.18861
-30,fb1,1.79348,1.36733
-30,fb2,1.69638,2.04454
-31,fb0,1.16024,1.18922
-31,fb1,1.79739,1.36563
-31,fb2,1.69427,2.04507
-32,fb0,1.15916,1.18985
-32,fb1,1.80111,1.36393
-32,fb2,1.69204,2.04557
-33,fb0,1.15809,1.1905
-33,fb1,1.80466,1.36222
-33,fb2,1.68972,2.04604
-34,fb0,1.15704,1.19117
-34,fb1,1.80806,1.3605
-34,fb2,1.6873,2.04646
-35,fb0,1.15599,1.19186
-35,fb1,1.8113,1.35879
-35,fb2,1.68478,2.04683
-36,fb0,1.15496,1.19257
-36,fb1,1.8144,1.35707
-36,fb2,1.68374,2.04696
-37,fb0,1.15395,1.1933
-37,fb1,1.81739,1.35534
-37,fb2,1.68288,2.04706
-38,fb0,1.15294,1.19404
-38,fb1,1.82026,1.35361
-38,fb2,1.68204,2.04715
-39,fb0,1.15195,1.1948
-39,fb1,1.82302,1.35188
-39,fb2,1.6812,2.04725
-40,fb0,1.15097,1.19558
-40,fb1,1.82569,1.35013
-40,fb2,1.68036,2.04734
-41,fb0,1.15001,1.19638
-41,fb1,1.82826,1.34839
-41,fb2,1.67952,2.04744
-42,fb0,1.14906,1.19719
-42,fb1,1.83074,1.34664
-42,fb2,1.67866,2.04753
-43,fb0,1.14813,1.19802
-43,fb1,1.83313,1.34488
-43,fb2,1.6778,2.04762
-44,fb0,1.14721,1.19887
-44,fb1,1.83544,1.34312
-44,fb2,1.67691,2.04771
-45,fb0,1.1463,1.19973
-45,fb1,1.83767,1.34136
-45,fb2,1.67601,2.0478
-46,fb0,1.14541,1.20061
-46,fb1,1.83982,1.3396
-46,fb2,1.67508,2.04788
-47,fb0,1.14454,1.20151
-47,fb1,1.8419,1.33783
-47,fb2,1.67412,2.04796
-48,fb0,1.14369,1.20242
-48,fb1,1.84391,1.33606
-48,fb2,1.67314,2.04804
-49,fb0,1.14285,1.20334
-49,fb1,1.84586,1.33429
-49,fb2,1.67213,2.04811
-50,fb0,1.14202,1.20428
-50,fb1,1.84774,1.33252
-50,fb2,1.67109,2.04818
-51,fb0,1.14122,1.20524
-51,fb1,1.84956,1.33074
-51,fb2,1.67002,2.04824
-52,fb0,1.14043,1.20621
-52,fb1,1.85132,1.32896
-52,fb2,1.66892,2.04829
-53,fb0,1.13965,1.20719
-53,fb1,1.85303,1.32718
-53,fb2,1.66778,2.04833
-54,fb0,1.1389,1.20819
-54,fb1,1.85468,1.3254
-54,fb2,1.66662,2.04836
-55,fb0,1.13816,1.2092
-55,fb1,1.85628,1.32361
-55,fb2,1.66543,2.04838
-56,fb0,1.13745,1.21022
-56,fb1,1.85783,1.32182
-56,fb2,1.6642,2.04839
-57,fb0,1.13675,1.21126
-57,fb1,1.85932,1.32003
-57,fb2,1.66295,2.04839
-58,fb0,1.13607,1.2123
-58,fb1,1.86077,1.31823
-58,fb2,1.66166,2.04837
-59,fb0,1.1354,1.21336
-59,fb1,1.86218,1.31644
-59,fb2,1.66035,2.04833
-60,fb0,1.13476,1.21444
-60,fb1,1.86354,1.31463
-60,fb2,1.65901,2.04828
-61,fb0,1.13414,1.21552
-61,fb1,1.86485,1.31283
-61,fb2,1.65764,2.0482
-62,fb0,1.13353,1.21661
-62,fb1,1.86613,1.31102
-62,fb2,1.65624,2.04811
-63,fb0,1.13295,1.21772
-63,fb1,1.86736,1.3092
-63,fb2,1.65482,2.048
-64,fb0,1.13238,1.21883
-64,fb1,1.86856,1.30738
-64,fb2,1.65338,2.04786
-65,fb0,1.13184,1.21996
-65,fb1,1.86971,1.30556
-65,fb2,1.65191,2.0477
-66,fb0,1.13131,1.22109
-66,fb1,1.87083,1.30373
-66,fb2,1.65042,2.04752
-67,fb0,1.13081,1.22224
-67,fb1,1.87191,1.30189
-67,fb2,1.64891,2.04731
-68,fb0,1.13032,1.22339
-68,fb1,1.87295,1.30005
-68,fb2,1.64738,2.04708
-69,fb0,1.12986,1.22455
-69,fb1,1.87395,1.29821
-69,fb2,1.64583,2.04682
-70,fb0,1.12942,1.22572
-70,fb1,1.87493,1.29636
-70,fb2,1.64426,2.04653
-71,fb0,1.129,1.2269
-71,fb1,1.87586,1.2945
-71,fb2,1.64268,2.04621
-72,fb0,1.1286,1.22808
-72,fb1,1.87677,1.29264
-72,fb2,1.64108,2.04587
-73,fb0,1.12822,1.22927
-73,fb1,1.87764,1.29077
-73,fb2,1.63947,2.0455
-74,fb0,1.12786,1.23047
-74,fb1,1.87847,1.28889
-74,fb2,1.63785,2.04509
-75,fb0,1.12752,1.23167
-75,fb1,1.87927,1.28701
-75,fb2,1.63622,2.04466
-76,fb0,1.12721,1.23288
-76,fb1,1.88005,1.28512
-76,fb2,1.63458,2.0442
-77,fb0,1.12691,1.2341
-77,fb1,1.88078,1.28323
-77,fb2,1.63293,2.04371
-78,fb0,1.12664,1.23532
-78,fb1,1.88149,1.28133
-78,fb2,1.63127,2.04318
-79,fb0,1.12638,1.23659
-79,fb1,1.88217,1.27943
-79,fb2,1.62961,2.04263
-80,fb0,1.12614,1.23787
-80,fb1,1.88281,1.27752
-80,fb2,1.62794,2.04204
-81,fb0,1.1259,1.23916
-81,fb1,1.88343,1.27561
-81,fb2,1.62627,2.04142
-82,fb0,1.12568,1.24046
-82,fb1,1.88401,1.27369
-82,fb2,1.6246,2.04077
-83,fb0,1.12547,1.24177
-83,fb1,1.88456,1.27176
-83,fb2,1.62292,2.0401
-84,fb0,1.12527,1.24308
-84,fb1,1.88509,1.26983
-84,fb2,1.62125,2.03939
-85,fb0,1.12508,1.2444
-85,fb1,1.88558,1.2679
-85,fb2,1.61958,2.03865
-86,fb0,1.1249,1.24573
-86,fb1,1.88604,1.26596
-86,fb2,1.61791,2.03788
-87,fb0,1.12474,1.24706
-87,fb1,1.88648,1.26402
-87,fb2,1.61625,2.03708
-88,fb0,1.12459,1.24839
-88,fb1,1.88688,1.26208
-88,fb2,1.61459,2.03625
-89,fb0,1.12446,1.24973
-89,fb1,1.88726,1.26013
-89,fb2,1.61293,2.03539
-90,fb0,1.12433,1.25106
-90,fb1,1.88761,1.25818
-90,fb2,1.61129,2.03451
-91,fb0,1.12422,1.2524
-91,fb1,1.88792,1.25622
-91,fb2,1.60965,2.03359
-92,fb0,1.12412,1.25374
-92,fb1,1.88822,1.25427
-92,fb2,1.60802,2.03265
-93,fb0,1.12404,1.25508
-93,fb1,1.88848,1.25231
-93,fb2,1.6064,2.03168
-94,fb0,1.12396,1.25643
-94,fb1,1.88872,1.25035
-94,fb2,1.60479,2.03069
-95,fb0,1.1239,1.25776
-95,fb1,1.88892,1.24838
-95,fb2,1.60319,2.02967
-96,fb0,1.12385,1.2591
-96,fb1,1.8891,1.24642
-96,fb2,1.6016,2.02862
-97,fb0,1.12382,1.26044
-97,fb1,1.88926,1.24446
-97,fb2,1.60002,2.02756
-98,fb0,1.12379,1.26177
-98,fb1,1.88939,1.24249
-98,fb2,1.59846,2.02646
-99,fb0,1.12378,1.2631
-99,fb1,1.88949,1.24053
-99,fb2,1.59692,2.02535
-100,fb0,1.12378,1.26442
-100,fb1,1.88956,1.23856
-100,fb2,1.59538,2.02422
-101,fb0,1.12379,1.26574
-101,fb1,1.88961,1.2366
-101,fb2,1.59387,2.02306
-102,fb0,1.12381,1.26705
-102,fb1,1.88964,1.23464
-102,fb2,1.59237,2.02188
-103,fb0,1.12385,1.26835
-103,fb1,1.88964,1.23268
-103,fb2,1.59088,2.02069
-104,fb0,1.12389,1.26965
-104,fb1,1.88961,1.23072
-104,fb2,1.58941,2.01947
-105,fb0,1.12395,1.27094
-105,fb1,1.88956,1.22876
-105,fb2,1.58796,2.01824
-106,fb0,1.12401,1.27221
-106,fb1,1.88949,1.22681
-106,fb2,1.58653,2.017
-107,fb0,1.12409,1.27348
-107,fb1,1.88939,1.22486
-107,fb2,1.58512,2.01573
-108,fb0,1.12417,1.27474
-108,fb1,1.88927,1.22292
-108,fb2,1.58372,2.01446
-109,fb0,1.12426,1.27599
-109,fb1,1.88913,1.22097
-109,fb2,1.58235,2.01316
-110,fb0,1.12437,1.27723
-110,fb1,1.88896,1.21903
-110,fb2,1.58099,2.01186
-111,fb0,1.12448,1.27845
-111,fb1,1.88878,1.2171
-111,fb2,1.57966,2.01054
-112,fb0,1.12459,1.27966
-112,fb1,1.88857,1.21517
-112,fb2,1.57834,2.00922
-113,fb0,1.12472,1.28086
-113,fb1,1.88834,1.21325
-113,fb2,1.57705,2.00788
-114,fb0,1.12485,1.28204
-114,fb1,1.88809,1.21133
-114,fb2,1.57577,2.00654
-115,fb0,1.12499,1.28321
-115,fb1,1.88782,1.20941
-115,fb2,1.57452,2.00518
-116,fb0,1.12513,1.28436
-116,fb1,1.88752,1.2075
-116,fb2,1.57328,2.00382
-117,fb0,1.12529,1.28549
-117,fb1,1.88721,1.2056
-117,fb2,1.57207,2.00245
-118,fb0,1.12544,1.28661
-118,fb1,1.88688,1.2037
-118,fb2,1.57088,2.00108
-119,fb0,1.1256,1.28771
-119,fb1,1.88654,1.20181
-119,fb2,1.56971,1.9997
-120,fb0,1.12577,1.28879
-120,fb1,1.88617,1.19993
-120,fb2,1.56856,1.99832
-121,fb0,1.12594,1.28985
-121,fb1,1.88579,1.19805
-121,fb2,1.56743,1.99694
-122,fb0,1.12611,1.29089
-122,fb1,1.88538,1.19618
-122,fb2,1.56633,1.99555
-123,fb0,1.12628,1.29192
-123,fb1,1.88497,1.19432
-123,fb2,1.56525,1.99417
-124,fb0,1.12646,1.29292
-124,fb1,1.88453,1.19246
-124,fb2,1.56418,1.99278
-125,fb0,1.12664,1.2939
-125,fb1,1.88408,1.19061
-125,fb2,1.56314,1.9914
-126,fb0,1.12682,1.29486
-126,fb1,1.88361,1.18877
-126,fb2,1.56213,1.99001
-127,fb0,1.127,1.2958
-127,fb1,1.88313,1.18694
-127,fb2,1.56113,1.98863
-128,fb0,1.12719,1.29672
-128,fb1,1.88264,1.18511
-128,fb2,1.56015,1.98725
-129,fb0,1.12737,1.29761
-129,fb1,1.88212,1.1833
-129,fb2,1.5592,1.98587
-130,fb0,1.12755,1.29848
-130,fb1,1.8816,1.18149
-130,fb2,1.55826,1.9845
-131,fb0,1.12773,1.29933
-131,fb1,1.88106,1.17969
-131,fb2,1.55735,1.98313
-132,fb0,1.12791,1.30015
-132,fb1,1.88051,1.17789
-132,fb2,1.55646,1.98177
-133,fb0,1.12809,1.30095
-133,fb1,1.87995,1.17611
-133,fb2,1.55559,1.98041
-134,fb0,1.12827,1.30172
-134,fb1,1.87937,1.17433
-134,fb2,1.55474,1.97906
-135,fb0,1.12844,1.30247
-135,fb1,1.87878,1.17256
-135,fb2,1.55391,1.97772
-136,fb0,1.12861,1.30319
-136,fb1,1.87818,1.1708
-136,fb2,1.5531,1.97639
-137,fb0,1.12878,1.30389
-137,fb1,1.87757,1.16905
-137,fb2,1.55231,1.97506
-138,fb0,1.12895,1.30456
-138,fb1,1.87695,1.1673
-138,fb2,1.55154,1.97374
-139,fb0,1.12911,1.30521
-139,fb1,1.87632,1.16556
-139,fb2,1.55078,1.97243
-140,fb0,1.12927,1.30583
-140,fb1,1.87568,1.16384
-140,fb2,1.55005,1.97113
-141,fb0,1.12942,1.30642
-141,fb1,1.87503,1.16212
-141,fb2,1.54934,1.96984
-142,fb0,1.12957,1.30699
-142,fb1,1.87436,1.1604
-142,fb2,1.54864,1.96855
-143,fb0,1.12971,1.30754
-143,fb1,1.87369,1.1587
-143,fb2,1.54797,1.96728
-144,fb0,1.12985,1.30805
-144,fb1,1.87302,1.157
-144,fb2,1.54731,1.96602
-145,fb0,1.12998,1.30854
-145,fb1,1.87233,1.15531
-145,fb2,1.54667,1.96477
-146,fb0,1.1301,1.30901
-146,fb1,1.87163,1.15363
-146,fb2,1.54604,1.96353
-147,fb0,1.13023,1.30945
-147,fb1,1.87093,1.15196
-147,fb2,1.54544,1.96229
-148,fb0,1.13034,1.30986
-148,fb1,1.87022,1.15029
-148,fb2,1.54485,1.96107
-149,fb0,1.13045,1.31025
-149,fb1,1.8695,1.14863
-149,fb2,1.54427,1.95986
-150,fb0,1.13055,1.31061
-150,fb1,1.86878,1.14698
-150,fb2,1.54371,1.95866
-151,fb0,1.13064,1.31094
-151,fb1,1.86805,1.14534
-151,fb2,1.54317,1.95747
-152,fb0,1.13073,1.31125
-152,fb1,1.86731,1.14371
-152,fb2,1.54264,1.95629
-153,fb0,1.13081,1.31154
-153,fb1,1.86656,1.14208
-153,fb2,1.54213,1.95512
-154,fb0,1.13089,1.3118
-154,fb1,1.86582,1.14046
-154,fb2,1.54163,1.95396
-155,fb0,1.13096,1.31203
-155,fb1,1.86506,1.13884
-155,fb2,1.54115,1.95281
-156,fb0,1.13102,1.31224
-156,fb1,1.8643,1.13724
-156,fb2,1.54068,1.95168
-157,fb0,1.13107,1.31243
-157,fb1,1.86353,1.13564
-157,fb2,1.54022,1.95055
-158,fb0,1.13112,1.31259
-158,fb1,1.86276,1.13404
-158,fb2,1.53978,1.94943
-159,fb0,1.13116,1.31273
-159,fb1,1.86199,1.13246
-159,fb2,1.53935,1.94831
-160,fb0,1.1312,1.31284
-160,fb1,1.86121,1.13088
-160,fb2,1.53893,1.94721
-161,fb0,1.13122,1.31293
-161,fb1,1.86043,1.12931
-161,fb2,1.53852,1.94612
-162,fb0,1.13124,1.313
-162,fb1,1.85964,1.12774
-162,fb2,1.53813,1.94503
-163,fb0,1.13126,1.31305
-163,fb1,1.85885,1.12618
-163,fb2,1.53775,1.94396
-164,fb0,1.13127,1.31308
-164,fb1,1.85806,1.12463
-164,fb2,1.53738,1.94289
-165,fb0,1.13127,1.31308
-165,fb1,1.85726,1.12308
-165,fb2,1.53702,1.94182
-166,fb0,1.13127,1.31308
-166,fb1,1.85646,1.12154
-166,fb2,1.53667,1.94077
-167,fb0,1.13127,1.31308
-167,fb1,1.85566,1.12
-167,fb2,1.53633,1.93972
-168,fb0,1.13127,1.31308
-168,fb1,1.85485,1.11847
-168,fb2,1.53601,1.93868
-169,fb0,1.13127,1.31308
-169,fb1,1.85404,1.11695
-169,fb2,1.53569,1.93765
-170,fb0,1.13127,1.31308
-170,fb1,1.85323,1.11543
-170,fb2,1.53538,1.93662
-171,fb0,1.13127,1.31308
-171,fb1,1.85243,1.11391
-171,fb2,1.53509,1.93561
-172,fb0,1.13127,1.31308
-172,fb1,1.85162,1.1124
-172,fb2,1.5348,1.93459
-173,fb0,1.13127,1.31308
-173,fb1,1.85082,1.11089
-173,fb2,1.53452,1.93359
-174,fb0,1.13127,1.31308
-174,fb1,1.85002,1.10938
-174,fb2,1.53426,1.93259
-175,fb0,1.13127,1.31308
-175,fb1,1.84922,1.10788
-175,fb2,1.534,1.93159
-176,fb0,1.13127,1.31308
-176,fb1,1.84843,1.10638
-176,fb2,1.53375,1.9306
-177,fb0,1.13127,1.31308
-177,fb1,1.84763,1.10488
-177,fb2,1.53351,1.92962
-178,fb0,1.13127,1.31308
-178,fb1,1.84684,1.10338
-178,fb2,1.53328,1.92865
-179,fb0,1.13127,1.31308
-179,fb1,1.84604,1.10189
-179,fb2,1.53306,1.92767
-180,fb0,1.13127,1.31308
-180,fb1,1.84525,1.1004
-180,fb2,1.53285,1.92671
-181,fb0,1.13127,1.31308
-181,fb1,1.84446,1.09892
-181,fb2,1.53264,1.92575
-182,fb0,1.13127,1.31308
-182,fb1,1.84368,1.09743
-182,fb2,1.53244,1.92479
-183,fb0,1.13137,1.31273
-183,fb1,1.84289,1.09595
-183,fb2,1.53226,1.92384
-184,fb0,1.13149,1.31232
-184,fb1,1.8421,1.09448
-184,fb2,1.53208,1.92289
-185,fb0,1.13161,1.31189
-185,fb1,1.84132,1.093
-185,fb2,1.53191,1.92194
-186,fb0,1.13173,1.31144
-186,fb1,1.84054,1.09153
-186,fb2,1.53174,1.92099
-187,fb0,1.13186,1.31097
-187,fb1,1.83976,1.09007
-187,fb2,1.53159,1.92005
-188,fb0,1.13198,1.31049
-188,fb1,1.83899,1.08861
-188,fb2,1.53144,1.91911
-189,fb0,1.13211,1.30999
-189,fb1,1.83821,1.08715
-189,fb2,1.5313,1.91817
-190,fb0,1.13224,1.30947
-190,fb1,1.83744,1.08569
-190,fb2,1.53116,1.91723
-191,fb0,1.13237,1.30893
-191,fb1,1.83667,1.08424
-191,fb2,1.53104,1.91629
-192,fb0,1.13251,1.30838
-192,fb1,1.8359,1.08279
-192,fb2,1.53092,1.91535
-193,fb0,1.13264,1.30781
-193,fb1,1.83513,1.08135
-193,fb2,1.53081,1.91442
-194,fb0,1.13277,1.30722
-194,fb1,1.83436,1.07991
-194,fb2,1.53071,1.91349
-195,fb0,1.13291,1.30661
-195,fb1,1.8336,1.07847
-195,fb2,1.53061,1.91255
-196,fb0,1.13304,1.30599
-196,fb1,1.83284,1.07703
-196,fb2,1.53052,1.91162
-197,fb0,1.13317,1.30536
-197,fb1,1.83208,1.0756
-197,fb2,1.53044,1.91069
-198,fb0,1.1333,1.3047
-198,fb1,1.83132,1.07417
-198,fb2,1.53037,1.90976
-199,fb0,1.13343,1.30403
-199,fb1,1.83056,1.07275
-199,fb2,1.5303,1.90883
-200,fb0,1.13355,1.30334
-200,fb1,1.8298,1.07132
-200,fb2,1.53024,1.9079
-201,fb0,1.13368,1.30264
-201,fb1,1.82905,1.0699
-201,fb2,1.53019,1.90697
-202,fb0,1.1338,1.30193
-202,fb1,1.82829,1.06848
-202,fb2,1.53015,1.90605
-203,fb0,1.13391,1.3012
-203,fb1,1.82754,1.06707
-203,fb2,1.53011,1.90512
-204,fb0,1.13403,1.30045
-204,fb1,1.82679,1.06565
-204,fb2,1.53008,1.90419
-205,fb0,1.13414,1.29969
-205,fb1,1.82604,1.06424
-205,fb2,1.53005,1.90327
-206,fb0,1.13424,1.29891
-206,fb1,1.82529,1.06283
-206,fb2,1.53004,1.90234
-207,fb0,1.13434,1.29812
-207,fb1,1.82454,1.06142
-207,fb2,1.53003,1.90142
-208,fb0,1.13443,1.29732
-208,fb1,1.8238,1.06002
-208,fb2,1.53002,1.90049
-209,fb0,1.13452,1.29651
-209,fb1,1.82305,1.05861
-209,fb2,1.53003,1.89957
-210,fb0,1.1346,1.29568
-210,fb1,1.82231,1.05721
-210,fb2,1.53004,1.89865
-211,fb0,1.13468,1.29484
-211,fb1,1.82156,1.05581
-211,fb2,1.53006,1.89772
-212,fb0,1.13474,1.29398
-212,fb1,1.82082,1.05441
-212,fb2,1.53008,1.8968
-213,fb0,1.13481,1.29312
-213,fb1,1.82007,1.05301
-213,fb2,1.53011,1.89588
-214,fb0,1.13486,1.29224
-214,fb1,1.81933,1.05161
-214,fb2,1.53015,1.89496
-215,fb0,1.13491,1.29136
-215,fb1,1.81859,1.05021
-215,fb2,1.53019,1.89404
-216,fb0,1.13494,1.29046
-216,fb1,1.81785,1.04882
-216,fb2,1.53025,1.89312
-217,fb0,1.13497,1.28955
-217,fb1,1.8171,1.04742
-217,fb2,1.5303,1.8922
-218,fb0,1.13499,1.28863
-218,fb1,1.81636,1.04602
-218,fb2,1.53037,1.89128
-219,fb0,1.135,1.2877
-219,fb1,1.81562,1.04463
-219,fb2,1.53044,1.89037
-220,fb0,1.135,1.28676
-220,fb1,1.81488,1.04323
-220,fb2,1.53051,1.88945
-221,fb0,1.13499,1.28582
-221,fb1,1.81414,1.04183
-221,fb2,1.53059,1.88853
-222,fb0,1.13497,1.28486
-222,fb1,1.81341,1.04044
-222,fb2,1.53068,1.88762
-223,fb0,1.13495,1.2839
-223,fb1,1.81268,1.03903
-223,fb2,1.53078,1.8867
-224,fb0,1.13491,1.28293
-224,fb1,1.81195,1.03763
-224,fb2,1.53088,1.88579
-225,fb0,1.13486,1.28195
-225,fb1,1.81122,1.03622
-225,fb2,1.53098,1.88487
-226,fb0,1.13479,1.28097
-226,fb1,1.81051,1.03481
-226,fb2,1.5311,1.88396
-227,fb0,1.13472,1.27998
-227,fb1,1.80979,1.0334
-227,fb2,1.53121,1.88305
-228,fb0,1.13464,1.27899
-228,fb1,1.80908,1.03199
-228,fb2,1.53134,1.88213
-229,fb0,1.13454,1.27799
-229,fb1,1.80837,1.03057
-229,fb2,1.53147,1.88122
-230,fb0,1.13443,1.27699
-230,fb1,1.80767,1.02915
-230,fb2,1.5316,1.88031
-231,fb0,1.13432,1.27598
-231,fb1,1.80697,1.02773
-231,fb2,1.53174,1.8794
-232,fb0,1.13419,1.27497
-232,fb1,1.80628,1.0263
-232,fb2,1.53188,1.87848
-233,fb0,1.13404,1.27396
-233,fb1,1.80559,1.02487
-233,fb2,1.53203,1.87757
-234,fb0,1.13389,1.27294
-234,fb1,1.8049,1.02343
-234,fb2,1.53219,1.87666
-235,fb0,1.13372,1.27193
-235,fb1,1.80422,1.022
-235,fb2,1.53235,1.87574
-236,fb0,1.13354,1.27091
-236,fb1,1.80355,1.02055
-236,fb2,1.53252,1.87483
-237,fb0,1.13335,1.26989
-237,fb1,1.80288,1.01911
-237,fb2,1.53269,1.87392
-238,fb0,1.13315,1.26887
-238,fb1,1.80221,1.01766
-238,fb2,1.53286,1.873
-239,fb0,1.13294,1.26786
-239,fb1,1.80155,1.01621
-239,fb2,1.53304,1.87208
-240,fb0,1.13271,1.26684
-240,fb1,1.8009,1.01476
-240,fb2,1.53323,1.87117
-241,fb0,1.13247,1.26583
-241,fb1,1.80025,1.0133
-241,fb2,1.53342,1.87025
-242,fb0,1.13223,1.26482
-242,fb1,1.7996,1.01184
-242,fb2,1.53361,1.86933
-243,fb0,1.13197,1.26381
-243,fb1,1.79896,1.01037
-243,fb2,1.53381,1.86841
-244,fb0,1.13169,1.26281
-244,fb1,1.79833,1.00891
-244,fb2,1.53402,1.86749
-245,fb0,1.13141,1.26181
-245,fb1,1.7977,1.00744
-245,fb2,1.53422,1.86657
-246,fb0,1.13112,1.26081
-246,fb1,1.79708,1.00596
-246,fb2,1.53444,1.86565
-247,fb0,1.13081,1.25982
-247,fb1,1.79646,1.00449
-247,fb2,1.53465,1.86472
-248,fb0,1.1305,1.25884
-248,fb1,1.79585,1.00301
-248,fb2,1.53488,1.86379
-249,fb0,1.13018,1.25786
-249,fb1,1.79524,1.00153
-249,fb2,1.5351,1.86286
-250,fb0,1.12984,1.25688
-250,fb1,1.79464,1.00004
-250,fb2,1.53533,1.86193
-251,fb0,1.1295,1.25592
-251,fb1,1.79404,0.998555
-251,fb2,1.53556,1.861
-252,fb0,1.12915,1.25496
-252,fb1,1.79345,0.997067
-252,fb2,1.5358,1.86007
-253,fb0,1.12878,1.25401
-253,fb1,1.79287,0.995576
-253,fb2,1.53604,1.85913
-254,fb0,1.12841,1.25306
-254,fb1,1.79229,0.994084
-254,fb2,1.53629,1.85819
-255,fb0,1.12803,1.25213
-255,fb1,1.79171,0.99259
-255,fb2,1.53654,1.85725
-256,fb0,1.12765,1.2512
-256,fb1,1.79114,0.991094
-256,fb2,1.53679,1.85631
-257,fb0,1.12725,1.25029
-257,fb1,1.79058,0.989597
-257,fb2,1.53705,1.85536
-258,fb0,1.12685,1.24938
-258,fb1,1.79002,0.988099
-258,fb2,1.53731,1.85441
-259,fb0,1.12644,1.24848
-259,fb1,1.78947,0.986599
-259,fb2,1.53758,1.85346
-260,fb0,1.12603,1.24759
-260,fb1,1.78893,0.985098
-260,fb2,1.53785,1.85251
-261,fb0,1.12561,1.24672
-261,fb1,1.78838,0.983597
-261,fb2,1.53812,1.85155
-262,fb0,1.12518,1.24585
-262,fb1,1.78785,0.982095
-262,fb2,1.53839,1.85059
-263,fb0,1.12475,1.24499
-263,fb1,1.78732,0.980592
-263,fb2,1.53867,1.84963
-264,fb0,1.12432,1.24415
-264,fb1,1.78679,0.979089
-264,fb2,1.53895,1.84867
-265,fb0,1.12388,1.24331
-265,fb1,1.78627,0.977585
-265,fb2,1.53924,1.8477
-266,fb0,1.12343,1.24249
-266,fb1,1.78575,0.976082
-266,fb2,1.53953,1.84673
-267,fb0,1.12298,1.24168
-267,fb1,1.78524,0.974578
-267,fb2,1.53982,1.84576
-268,fb0,1.12253,1.24088
-268,fb1,1.78473,0.973074
-268,fb2,1.54011,1.84479
-269,fb0,1.12207,1.24009
-269,fb1,1.78423,0.971571
-269,fb2,1.54041,1.84381
-270,fb0,1.12162,1.23931
-270,fb1,1.78373,0.970068
-270,fb2,1.54071,1.84284
-271,fb0,1.12116,1.23855
-271,fb1,1.78324,0.968566
-271,fb2,1.54101,1.84186
-272,fb0,1.12069,1.2378
-272,fb1,1.78274,0.967066
-272,fb2,1.54132,1.84087
-273,fb0,1.12023,1.23706
-273,fb1,1.78225,0.965567
-273,fb2,1.54163,1.83989
-274,fb0,1.11977,1.23633
-274,fb1,1.78175,0.96407
-274,fb2,1.54194,1.8389
-275,fb0,1.1193,1.23561
-275,fb1,1.78126,0.962575
-275,fb2,1.54225,1.83791
-276,fb0,1.11883,1.2349
-276,fb1,1.78076,0.961082
-276,fb2,1.54256,1.83692
-277,fb0,1.11836,1.23421
-277,fb1,1.78027,0.95959
-277,fb2,1.54288,1.83593
-278,fb0,1.11768,1.23321
-278,fb1,1.77978,0.9581
-278,fb2,1.54319,1.83493
-279,fb0,1.11696,1.23219
-279,fb1,1.77929,0.956613
-279,fb2,1.54351,1.83393
-280,fb0,1.11622,1.23119
-280,fb1,1.7788,0.955127
-280,fb2,1.54382,1.83292
-281,fb0,1.11546,1.23019
-281,fb1,1.77831,0.953645
-281,fb2,1.54414,1.8319
-282,fb0,1.11468,1.22921
-282,fb1,1.77782,0.952165
-282,fb2,1.54447,1.83088
-283,fb0,1.11389,1.22825
-283,fb1,1.77733,0.950688
-283,fb2,1.54479,1.82985
-284,fb0,1.11308,1.2273
-284,fb1,1.77684,0.949213
-284,fb2,1.54512,1.82882
-285,fb0,1.11225,1.22636
-285,fb1,1.77635,0.947742
-285,fb2,1.54544,1.82777
-286,fb0,1.11141,1.22544
-286,fb1,1.77587,0.946272
-286,fb2,1.54577,1.82673
-287,fb0,1.11055,1.22453
-287,fb1,1.77538,0.944806
-287,fb2,1.54611,1.82567
-288,fb0,1.10967,1.22364
-288,fb1,1.7749,0.943342
-288,fb2,1.54644,1.82461
-289,fb0,1.10878,1.22276
-289,fb1,1.77442,0.94188
-289,fb2,1.54678,1.82355
-290,fb0,1.10787,1.2219
-290,fb1,1.77393,0.940421
-290,fb2,1.54711,1.82247
-291,fb0,1.10695,1.22106
-291,fb1,1.77345,0.938965
-291,fb2,1.54746,1.82139
-292,fb0,1.10601,1.22024
-292,fb1,1.77297,0.93751
-292,fb2,1.5478,1.82031
+Clock: 1,Robot ID: fb0,Robot position: 1.19598,1.17992
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 1,Robot ID: fb1,Robot position: 1.57883,1.44171
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 1,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 2,Robot ID: fb0,Robot position: 1.1971,1.17993
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 2,Robot ID: fb1,Robot position: 1.57883,1.44171
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 2,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 3,Robot ID: fb0,Robot position: 1.19835,1.17997
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 3,Robot ID: fb1,Robot position: 1.57883,1.44171
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 3,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 4,Robot ID: fb0,Robot position: 1.1996,1.18002
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 4,Robot ID: fb1,Robot position: 1.57883,1.44171
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 4,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 5,Robot ID: fb0,Robot position: 1.20085,1.1801
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 5,Robot ID: fb1,Robot position: 1.57883,1.44171
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 5,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 6,Robot ID: fb0,Robot position: 1.2021,1.1802
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 6,Robot ID: fb1,Robot position: 1.57883,1.44171
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 6,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 7,Robot ID: fb0,Robot position: 1.20334,1.18032
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 7,Robot ID: fb1,Robot position: 1.5785,1.4506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 7,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 8,Robot ID: fb0,Robot position: 1.20458,1.18046
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 8,Robot ID: fb1,Robot position: 1.5791,1.46057
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 8,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 9,Robot ID: fb0,Robot position: 1.20582,1.18063
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 9,Robot ID: fb1,Robot position: 1.58068,1.47044
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 9,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 10,Robot ID: fb0,Robot position: 1.20706,1.18081
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 10,Robot ID: fb1,Robot position: 1.58314,1.48013
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 10,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 11,Robot ID: fb0,Robot position: 1.20829,1.18102
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 11,Robot ID: fb1,Robot position: 1.58642,1.48957
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 11,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 12,Robot ID: fb0,Robot position: 1.20952,1.18125
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 12,Robot ID: fb1,Robot position: 1.5905,1.4987
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 12,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 13,Robot ID: fb0,Robot position: 1.21074,1.18151
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 13,Robot ID: fb1,Robot position: 1.59538,1.50743
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 13,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 14,Robot ID: fb0,Robot position: 1.21196,1.18178
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 14,Robot ID: fb1,Robot position: 1.59592,1.50839
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 14,Robot ID: fb2,Robot position: 1.7393,1.99868
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 15,Robot ID: fb0,Robot position: 1.21318,1.18208
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 15,Robot ID: fb1,Robot position: 1.59592,1.50839
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 15,Robot ID: fb2,Robot position: 1.73237,2.00425
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 16,Robot ID: fb0,Robot position: 1.21438,1.1824
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 16,Robot ID: fb1,Robot position: 1.59592,1.50839
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 16,Robot ID: fb2,Robot position: 1.72524,2.01126
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 17,Robot ID: fb0,Robot position: 1.21559,1.18274
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 17,Robot ID: fb1,Robot position: 1.60361,1.51286
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 17,Robot ID: fb2,Robot position: 1.71881,2.01891
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 18,Robot ID: fb0,Robot position: 1.21678,1.1831
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 18,Robot ID: fb1,Robot position: 1.61265,1.51713
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 18,Robot ID: fb2,Robot position: 1.71307,2.0271
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 19,Robot ID: fb0,Robot position: 1.21797,1.18348
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 19,Robot ID: fb1,Robot position: 1.62205,1.52055
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 19,Robot ID: fb2,Robot position: 1.70796,2.03569
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 20,Robot ID: fb0,Robot position: 1.21916,1.18389
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 20,Robot ID: fb1,Robot position: 1.63172,1.52305
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 20,Robot ID: fb2,Robot position: 1.70343,2.0446
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 21,Robot ID: fb0,Robot position: 1.22033,1.18431
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 21,Robot ID: fb1,Robot position: 1.64159,1.52463
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 21,Robot ID: fb2,Robot position: 1.69941,2.05376
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 22,Robot ID: fb0,Robot position: 1.2215,1.18476
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 22,Robot ID: fb1,Robot position: 1.65156,1.52531
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 22,Robot ID: fb2,Robot position: 1.69585,2.0631
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 23,Robot ID: fb0,Robot position: 1.22266,1.18523
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 23,Robot ID: fb1,Robot position: 1.66156,1.52516
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 23,Robot ID: fb2,Robot position: 1.69267,2.07258
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 24,Robot ID: fb0,Robot position: 1.22381,1.18571
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 24,Robot ID: fb1,Robot position: 1.67152,1.52426
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 24,Robot ID: fb2,Robot position: 1.68983,2.08217
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 25,Robot ID: fb0,Robot position: 1.22495,1.18622
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 25,Robot ID: fb1,Robot position: 1.68139,1.52271
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 25,Robot ID: fb2,Robot position: 1.68727,2.09183
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 26,Robot ID: fb0,Robot position: 1.22608,1.18675
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 26,Robot ID: fb1,Robot position: 1.69117,1.52062
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 26,Robot ID: fb2,Robot position: 1.68493,2.10156
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 27,Robot ID: fb0,Robot position: 1.22721,1.1873
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 27,Robot ID: fb1,Robot position: 1.70085,1.51812
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 27,Robot ID: fb2,Robot position: 1.68306,2.11
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 28,Robot ID: fb0,Robot position: 1.22832,1.18787
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 28,Robot ID: fb1,Robot position: 1.70988,1.51546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 28,Robot ID: fb2,Robot position: 1.68151,2.11711
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 29,Robot ID: fb0,Robot position: 1.22942,1.18846
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 29,Robot ID: fb1,Robot position: 1.71822,1.51277
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 29,Robot ID: fb2,Robot position: 1.6802,2.12313
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 30,Robot ID: fb0,Robot position: 1.23052,1.18906
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 30,Robot ID: fb1,Robot position: 1.726,1.51013
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 30,Robot ID: fb2,Robot position: 1.67908,2.12828
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 31,Robot ID: fb0,Robot position: 1.2316,1.18969
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 31,Robot ID: fb1,Robot position: 1.73334,1.50761
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 31,Robot ID: fb2,Robot position: 1.67812,2.13272
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 32,Robot ID: fb0,Robot position: 1.23267,1.19034
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 32,Robot ID: fb1,Robot position: 1.74029,1.50522
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 32,Robot ID: fb2,Robot position: 1.67728,2.13658
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 33,Robot ID: fb0,Robot position: 1.23373,1.191
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 33,Robot ID: fb1,Robot position: 1.74691,1.50294
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 33,Robot ID: fb2,Robot position: 1.67654,2.13995
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 34,Robot ID: fb0,Robot position: 1.23477,1.19169
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 34,Robot ID: fb1,Robot position: 1.75323,1.50077
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 34,Robot ID: fb2,Robot position: 1.6759,2.14292
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 35,Robot ID: fb0,Robot position: 1.23581,1.19239
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 35,Robot ID: fb1,Robot position: 1.75927,1.49869
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 35,Robot ID: fb2,Robot position: 1.67533,2.14554
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 36,Robot ID: fb0,Robot position: 1.23683,1.19311
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 36,Robot ID: fb1,Robot position: 1.76507,1.49669
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 36,Robot ID: fb2,Robot position: 1.67483,2.14786
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 37,Robot ID: fb0,Robot position: 1.23783,1.19385
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 37,Robot ID: fb1,Robot position: 1.77063,1.49478
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 37,Robot ID: fb2,Robot position: 1.67437,2.14992
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 38,Robot ID: fb0,Robot position: 1.23883,1.19461
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 38,Robot ID: fb1,Robot position: 1.77599,1.49294
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 38,Robot ID: fb2,Robot position: 1.67396,2.15175
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 39,Robot ID: fb0,Robot position: 1.23981,1.19538
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 39,Robot ID: fb1,Robot position: 1.78115,1.49116
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 39,Robot ID: fb2,Robot position: 1.67358,2.15339
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 40,Robot ID: fb0,Robot position: 1.24078,1.19617
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 40,Robot ID: fb1,Robot position: 1.78613,1.48945
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 40,Robot ID: fb2,Robot position: 1.67324,2.15485
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 41,Robot ID: fb0,Robot position: 1.24173,1.19698
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 41,Robot ID: fb1,Robot position: 1.79094,1.4878
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 41,Robot ID: fb2,Robot position: 1.67292,2.15617
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 42,Robot ID: fb0,Robot position: 1.24267,1.19781
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 42,Robot ID: fb1,Robot position: 1.79559,1.4862
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 42,Robot ID: fb2,Robot position: 1.67263,2.15736
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 43,Robot ID: fb0,Robot position: 1.24359,1.19865
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 43,Robot ID: fb1,Robot position: 1.80009,1.48465
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 43,Robot ID: fb2,Robot position: 1.67236,2.15843
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 44,Robot ID: fb0,Robot position: 1.2445,1.19951
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 44,Robot ID: fb1,Robot position: 1.80445,1.48315
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 44,Robot ID: fb2,Robot position: 1.6721,2.1594
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 45,Robot ID: fb0,Robot position: 1.24539,1.20039
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 45,Robot ID: fb1,Robot position: 1.80868,1.48169
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 45,Robot ID: fb2,Robot position: 1.67187,2.1603
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 46,Robot ID: fb0,Robot position: 1.24627,1.20128
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 46,Robot ID: fb1,Robot position: 1.81279,1.48028
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 46,Robot ID: fb2,Robot position: 1.67164,2.16113
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 47,Robot ID: fb0,Robot position: 1.24713,1.20218
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 47,Robot ID: fb1,Robot position: 1.81678,1.47891
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 47,Robot ID: fb2,Robot position: 1.67142,2.16191
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 48,Robot ID: fb0,Robot position: 1.24797,1.20311
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 48,Robot ID: fb1,Robot position: 1.82065,1.47758
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 48,Robot ID: fb2,Robot position: 1.67121,2.16264
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 49,Robot ID: fb0,Robot position: 1.2488,1.20404
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 49,Robot ID: fb1,Robot position: 1.82442,1.47628
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 49,Robot ID: fb2,Robot position: 1.671,2.16335
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 50,Robot ID: fb0,Robot position: 1.24961,1.20499
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 50,Robot ID: fb1,Robot position: 1.82808,1.47502
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 50,Robot ID: fb2,Robot position: 1.67079,2.16403
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 51,Robot ID: fb0,Robot position: 1.2504,1.20596
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 51,Robot ID: fb1,Robot position: 1.83165,1.47379
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 51,Robot ID: fb2,Robot position: 1.67058,2.16471
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 52,Robot ID: fb0,Robot position: 1.25118,1.20694
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 52,Robot ID: fb1,Robot position: 1.83512,1.4726
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 52,Robot ID: fb2,Robot position: 1.67036,2.1654
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 53,Robot ID: fb0,Robot position: 1.25194,1.20793
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 53,Robot ID: fb1,Robot position: 1.83851,1.47144
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 53,Robot ID: fb2,Robot position: 1.67034,2.16546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 54,Robot ID: fb0,Robot position: 1.25268,1.20894
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 54,Robot ID: fb1,Robot position: 1.84181,1.4703
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 54,Robot ID: fb2,Robot position: 1.67034,2.16546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 55,Robot ID: fb0,Robot position: 1.2534,1.20996
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 55,Robot ID: fb1,Robot position: 1.84505,1.46919
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 55,Robot ID: fb2,Robot position: 1.67034,2.16546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 56,Robot ID: fb0,Robot position: 1.25411,1.21099
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 56,Robot ID: fb1,Robot position: 1.84821,1.4681
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 56,Robot ID: fb2,Robot position: 1.67034,2.16546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 57,Robot ID: fb0,Robot position: 1.25479,1.21204
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 57,Robot ID: fb1,Robot position: 1.85131,1.46702
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 57,Robot ID: fb2,Robot position: 1.67034,2.16546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 58,Robot ID: fb0,Robot position: 1.25546,1.21309
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 58,Robot ID: fb1,Robot position: 1.85433,1.46594
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 58,Robot ID: fb2,Robot position: 1.67034,2.16546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 59,Robot ID: fb0,Robot position: 1.25611,1.21416
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 59,Robot ID: fb1,Robot position: 1.85728,1.46487
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 59,Robot ID: fb2,Robot position: 1.66965,2.16576
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 60,Robot ID: fb0,Robot position: 1.25674,1.21524
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 60,Robot ID: fb1,Robot position: 1.86017,1.46381
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 60,Robot ID: fb2,Robot position: 1.66885,2.16608
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 61,Robot ID: fb0,Robot position: 1.25735,1.21633
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 61,Robot ID: fb1,Robot position: 1.86298,1.46276
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 61,Robot ID: fb2,Robot position: 1.66801,2.16641
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 62,Robot ID: fb0,Robot position: 1.25794,1.21744
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 62,Robot ID: fb1,Robot position: 1.86572,1.46171
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 62,Robot ID: fb2,Robot position: 1.66715,2.16674
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 63,Robot ID: fb0,Robot position: 1.25851,1.21855
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 63,Robot ID: fb1,Robot position: 1.86839,1.46067
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 63,Robot ID: fb2,Robot position: 1.66625,2.16707
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 64,Robot ID: fb0,Robot position: 1.25906,1.21967
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 64,Robot ID: fb1,Robot position: 1.871,1.45964
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 64,Robot ID: fb2,Robot position: 1.66531,2.1674
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 65,Robot ID: fb0,Robot position: 1.25959,1.2208
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 65,Robot ID: fb1,Robot position: 1.87355,1.45862
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 65,Robot ID: fb2,Robot position: 1.66435,2.16773
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 66,Robot ID: fb0,Robot position: 1.2601,1.22194
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 66,Robot ID: fb1,Robot position: 1.87604,1.4576
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 66,Robot ID: fb2,Robot position: 1.66334,2.16806
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 67,Robot ID: fb0,Robot position: 1.26059,1.22309
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 67,Robot ID: fb1,Robot position: 1.87846,1.4566
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 67,Robot ID: fb2,Robot position: 1.6623,2.16839
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 68,Robot ID: fb0,Robot position: 1.26106,1.22425
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 68,Robot ID: fb1,Robot position: 1.88083,1.4556
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 68,Robot ID: fb2,Robot position: 1.66122,2.16871
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 69,Robot ID: fb0,Robot position: 1.2615,1.22542
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 69,Robot ID: fb1,Robot position: 1.88315,1.45461
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 69,Robot ID: fb2,Robot position: 1.66011,2.16903
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 70,Robot ID: fb0,Robot position: 1.26193,1.22659
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 70,Robot ID: fb1,Robot position: 1.8854,1.45362
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 70,Robot ID: fb2,Robot position: 1.65896,2.16934
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 71,Robot ID: fb0,Robot position: 1.26234,1.22778
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 71,Robot ID: fb1,Robot position: 1.88761,1.45265
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 71,Robot ID: fb2,Robot position: 1.65778,2.16964
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 72,Robot ID: fb0,Robot position: 1.26272,1.22897
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 72,Robot ID: fb1,Robot position: 1.88977,1.45168
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 72,Robot ID: fb2,Robot position: 1.65656,2.16992
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 73,Robot ID: fb0,Robot position: 1.26309,1.23016
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 73,Robot ID: fb1,Robot position: 1.89187,1.45072
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 73,Robot ID: fb2,Robot position: 1.6553,2.1702
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 74,Robot ID: fb0,Robot position: 1.26343,1.23136
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 74,Robot ID: fb1,Robot position: 1.89393,1.44977
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 74,Robot ID: fb2,Robot position: 1.65402,2.17046
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 75,Robot ID: fb0,Robot position: 1.26375,1.23257
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 75,Robot ID: fb1,Robot position: 1.89595,1.44883
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 75,Robot ID: fb2,Robot position: 1.6527,2.1707
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 76,Robot ID: fb0,Robot position: 1.26405,1.23379
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 76,Robot ID: fb1,Robot position: 1.89791,1.44789
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 76,Robot ID: fb2,Robot position: 1.65134,2.17092
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 77,Robot ID: fb0,Robot position: 1.26432,1.23501
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 77,Robot ID: fb1,Robot position: 1.89984,1.44697
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 77,Robot ID: fb2,Robot position: 1.64996,2.17112
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 78,Robot ID: fb0,Robot position: 1.26468,1.23673
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 78,Robot ID: fb1,Robot position: 1.90172,1.44605
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 78,Robot ID: fb2,Robot position: 1.64855,2.1713
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 79,Robot ID: fb0,Robot position: 1.26501,1.23851
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 79,Robot ID: fb1,Robot position: 1.90357,1.44513
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 79,Robot ID: fb2,Robot position: 1.64711,2.17146
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 80,Robot ID: fb0,Robot position: 1.26529,1.24028
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 80,Robot ID: fb1,Robot position: 1.90538,1.44422
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 80,Robot ID: fb2,Robot position: 1.64563,2.1716
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 81,Robot ID: fb0,Robot position: 1.26552,1.24203
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 81,Robot ID: fb1,Robot position: 1.90716,1.44331
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 81,Robot ID: fb2,Robot position: 1.64414,2.1717
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 82,Robot ID: fb0,Robot position: 1.26571,1.24378
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 82,Robot ID: fb1,Robot position: 1.90891,1.44241
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 82,Robot ID: fb2,Robot position: 1.64261,2.17178
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 83,Robot ID: fb0,Robot position: 1.26586,1.2455
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 83,Robot ID: fb1,Robot position: 1.91062,1.44151
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 83,Robot ID: fb2,Robot position: 1.64106,2.17183
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 84,Robot ID: fb0,Robot position: 1.26597,1.24721
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 84,Robot ID: fb1,Robot position: 1.9123,1.44062
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 84,Robot ID: fb2,Robot position: 1.63949,2.17186
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 85,Robot ID: fb0,Robot position: 1.26604,1.24891
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 85,Robot ID: fb1,Robot position: 1.91395,1.43973
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 85,Robot ID: fb2,Robot position: 1.6379,2.17184
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 86,Robot ID: fb0,Robot position: 1.26608,1.25058
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 86,Robot ID: fb1,Robot position: 1.91557,1.43885
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 86,Robot ID: fb2,Robot position: 1.63628,2.1718
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 87,Robot ID: fb0,Robot position: 1.26609,1.25223
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 87,Robot ID: fb1,Robot position: 1.91716,1.43797
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 87,Robot ID: fb2,Robot position: 1.63465,2.17173
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 88,Robot ID: fb0,Robot position: 1.26606,1.25386
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 88,Robot ID: fb1,Robot position: 1.91872,1.4371
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 88,Robot ID: fb2,Robot position: 1.633,2.17162
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 89,Robot ID: fb0,Robot position: 1.26601,1.25546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 89,Robot ID: fb1,Robot position: 1.92024,1.43623
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 89,Robot ID: fb2,Robot position: 1.63134,2.17147
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 90,Robot ID: fb0,Robot position: 1.26593,1.25705
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 90,Robot ID: fb1,Robot position: 1.92174,1.43537
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 90,Robot ID: fb2,Robot position: 1.62966,2.17129
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 91,Robot ID: fb0,Robot position: 1.26583,1.25861
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 91,Robot ID: fb1,Robot position: 1.92322,1.43451
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 91,Robot ID: fb2,Robot position: 1.62797,2.17108
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 92,Robot ID: fb0,Robot position: 1.26571,1.26015
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 92,Robot ID: fb1,Robot position: 1.92466,1.43366
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 92,Robot ID: fb2,Robot position: 1.62626,2.17082
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 93,Robot ID: fb0,Robot position: 1.26556,1.26166
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 93,Robot ID: fb1,Robot position: 1.92608,1.4328
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 93,Robot ID: fb2,Robot position: 1.62455,2.17054
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 94,Robot ID: fb0,Robot position: 1.26539,1.26315
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 94,Robot ID: fb1,Robot position: 1.92747,1.43196
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 94,Robot ID: fb2,Robot position: 1.62283,2.17021
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 95,Robot ID: fb0,Robot position: 1.26521,1.26462
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 95,Robot ID: fb1,Robot position: 1.92884,1.43111
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 95,Robot ID: fb2,Robot position: 1.6211,2.16985
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 96,Robot ID: fb0,Robot position: 1.26501,1.26606
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 96,Robot ID: fb1,Robot position: 1.93019,1.43027
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 96,Robot ID: fb2,Robot position: 1.61937,2.16944
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 97,Robot ID: fb0,Robot position: 1.2648,1.26748
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 97,Robot ID: fb1,Robot position: 1.93151,1.42942
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 97,Robot ID: fb2,Robot position: 1.61763,2.16901
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 98,Robot ID: fb0,Robot position: 1.26457,1.26888
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 98,Robot ID: fb1,Robot position: 1.93281,1.42858
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 98,Robot ID: fb2,Robot position: 1.61589,2.16853
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 99,Robot ID: fb0,Robot position: 1.26434,1.27026
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 99,Robot ID: fb1,Robot position: 1.9341,1.42774
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 99,Robot ID: fb2,Robot position: 1.61415,2.16802
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 100,Robot ID: fb0,Robot position: 1.26409,1.27161
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 100,Robot ID: fb1,Robot position: 1.93536,1.4269
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 100,Robot ID: fb2,Robot position: 1.61241,2.16746
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 101,Robot ID: fb0,Robot position: 1.26383,1.27295
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 101,Robot ID: fb1,Robot position: 1.9366,1.42605
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 101,Robot ID: fb2,Robot position: 1.61067,2.16688
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 102,Robot ID: fb0,Robot position: 1.26356,1.27426
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 102,Robot ID: fb1,Robot position: 1.93783,1.42521
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 102,Robot ID: fb2,Robot position: 1.60893,2.16625
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 103,Robot ID: fb0,Robot position: 1.26328,1.27556
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 103,Robot ID: fb1,Robot position: 1.93904,1.42436
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 103,Robot ID: fb2,Robot position: 1.6072,2.16559
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 104,Robot ID: fb0,Robot position: 1.263,1.27684
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 104,Robot ID: fb1,Robot position: 1.94023,1.42351
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 104,Robot ID: fb2,Robot position: 1.60547,2.16489
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 105,Robot ID: fb0,Robot position: 1.26271,1.27809
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 105,Robot ID: fb1,Robot position: 1.94141,1.42265
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 105,Robot ID: fb2,Robot position: 1.60375,2.16416
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 106,Robot ID: fb0,Robot position: 1.26241,1.27933
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 106,Robot ID: fb1,Robot position: 1.94258,1.42179
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 106,Robot ID: fb2,Robot position: 1.60204,2.16339
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 107,Robot ID: fb0,Robot position: 1.26211,1.28056
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 107,Robot ID: fb1,Robot position: 1.94373,1.42092
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 107,Robot ID: fb2,Robot position: 1.60033,2.16259
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 108,Robot ID: fb0,Robot position: 1.26181,1.28176
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 108,Robot ID: fb1,Robot position: 1.94487,1.42005
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 108,Robot ID: fb2,Robot position: 1.59864,2.16175
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 109,Robot ID: fb0,Robot position: 1.2615,1.28295
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 109,Robot ID: fb1,Robot position: 1.94599,1.41917
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 109,Robot ID: fb2,Robot position: 1.59695,2.16088
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 110,Robot ID: fb0,Robot position: 1.26119,1.28413
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 110,Robot ID: fb1,Robot position: 1.94711,1.41828
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 110,Robot ID: fb2,Robot position: 1.59527,2.15997
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 111,Robot ID: fb0,Robot position: 1.26087,1.28529
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 111,Robot ID: fb1,Robot position: 1.94822,1.41738
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 111,Robot ID: fb2,Robot position: 1.59361,2.15904
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 112,Robot ID: fb0,Robot position: 1.26056,1.28644
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 112,Robot ID: fb1,Robot position: 1.94931,1.41648
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 112,Robot ID: fb2,Robot position: 1.59196,2.15807
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 113,Robot ID: fb0,Robot position: 1.26024,1.28757
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 113,Robot ID: fb1,Robot position: 1.9504,1.41556
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 113,Robot ID: fb2,Robot position: 1.59032,2.15707
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 114,Robot ID: fb0,Robot position: 1.25992,1.2887
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 114,Robot ID: fb1,Robot position: 1.95148,1.41463
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 114,Robot ID: fb2,Robot position: 1.5887,2.15604
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 115,Robot ID: fb0,Robot position: 1.25959,1.28981
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 115,Robot ID: fb1,Robot position: 1.95255,1.41369
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 115,Robot ID: fb2,Robot position: 1.58709,2.15498
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 116,Robot ID: fb0,Robot position: 1.25927,1.2909
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 116,Robot ID: fb1,Robot position: 1.95361,1.41274
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 116,Robot ID: fb2,Robot position: 1.5855,2.1539
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 117,Robot ID: fb0,Robot position: 1.25895,1.29199
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 117,Robot ID: fb1,Robot position: 1.95466,1.41177
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 117,Robot ID: fb2,Robot position: 1.58393,2.15278
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 118,Robot ID: fb0,Robot position: 1.25862,1.29307
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 118,Robot ID: fb1,Robot position: 1.95571,1.41079
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 118,Robot ID: fb2,Robot position: 1.58237,2.15164
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 119,Robot ID: fb0,Robot position: 1.2583,1.29414
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 119,Robot ID: fb1,Robot position: 1.95675,1.40979
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 119,Robot ID: fb2,Robot position: 1.58083,2.15047
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 120,Robot ID: fb0,Robot position: 1.25798,1.29519
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 120,Robot ID: fb1,Robot position: 1.95778,1.40878
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 120,Robot ID: fb2,Robot position: 1.5793,2.14928
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 121,Robot ID: fb0,Robot position: 1.25765,1.29624
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 121,Robot ID: fb1,Robot position: 1.9588,1.40775
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 121,Robot ID: fb2,Robot position: 1.5778,2.14806
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 122,Robot ID: fb0,Robot position: 1.25733,1.29728
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 122,Robot ID: fb1,Robot position: 1.95982,1.4067
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 122,Robot ID: fb2,Robot position: 1.57631,2.14682
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 123,Robot ID: fb0,Robot position: 1.25701,1.29831
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 123,Robot ID: fb1,Robot position: 1.96083,1.40564
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 123,Robot ID: fb2,Robot position: 1.57484,2.14555
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 124,Robot ID: fb0,Robot position: 1.25669,1.29934
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 124,Robot ID: fb1,Robot position: 1.96183,1.40455
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 124,Robot ID: fb2,Robot position: 1.57339,2.14427
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 125,Robot ID: fb0,Robot position: 1.25637,1.30036
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 125,Robot ID: fb1,Robot position: 1.96283,1.40345
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 125,Robot ID: fb2,Robot position: 1.57197,2.14296
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 126,Robot ID: fb0,Robot position: 1.25606,1.30137
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 126,Robot ID: fb1,Robot position: 1.96381,1.40233
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 126,Robot ID: fb2,Robot position: 1.57056,2.14163
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 127,Robot ID: fb0,Robot position: 1.25574,1.30237
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 127,Robot ID: fb1,Robot position: 1.96479,1.40119
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 127,Robot ID: fb2,Robot position: 1.56917,2.14028
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 128,Robot ID: fb0,Robot position: 1.25543,1.30337
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 128,Robot ID: fb1,Robot position: 1.96576,1.40003
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 128,Robot ID: fb2,Robot position: 1.5678,2.13891
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 129,Robot ID: fb0,Robot position: 1.25513,1.30436
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 129,Robot ID: fb1,Robot position: 1.96672,1.39885
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 129,Robot ID: fb2,Robot position: 1.56645,2.13753
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 130,Robot ID: fb0,Robot position: 1.25482,1.30535
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 130,Robot ID: fb1,Robot position: 1.96767,1.39765
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 130,Robot ID: fb2,Robot position: 1.56513,2.13612
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 131,Robot ID: fb0,Robot position: 1.25451,1.30633
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 131,Robot ID: fb1,Robot position: 1.96862,1.39643
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 131,Robot ID: fb2,Robot position: 1.56383,2.1347
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 132,Robot ID: fb0,Robot position: 1.25421,1.3073
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 132,Robot ID: fb1,Robot position: 1.96955,1.39518
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 132,Robot ID: fb2,Robot position: 1.56254,2.13327
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 133,Robot ID: fb0,Robot position: 1.25391,1.30826
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 133,Robot ID: fb1,Robot position: 1.97047,1.39392
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 133,Robot ID: fb2,Robot position: 1.56128,2.13182
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 134,Robot ID: fb0,Robot position: 1.25361,1.30922
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 134,Robot ID: fb1,Robot position: 1.97138,1.39263
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 134,Robot ID: fb2,Robot position: 1.56004,2.13036
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 135,Robot ID: fb0,Robot position: 1.25332,1.31018
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 135,Robot ID: fb1,Robot position: 1.97228,1.39132
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 135,Robot ID: fb2,Robot position: 1.55882,2.12888
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 136,Robot ID: fb0,Robot position: 1.25302,1.31112
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 136,Robot ID: fb1,Robot position: 1.97317,1.38998
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 136,Robot ID: fb2,Robot position: 1.55763,2.1274
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 137,Robot ID: fb0,Robot position: 1.25273,1.31206
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 137,Robot ID: fb1,Robot position: 1.97404,1.38863
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 137,Robot ID: fb2,Robot position: 1.55645,2.1259
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 138,Robot ID: fb0,Robot position: 1.25244,1.313
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 138,Robot ID: fb1,Robot position: 1.9749,1.38725
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 138,Robot ID: fb2,Robot position: 1.5553,2.12439
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 139,Robot ID: fb0,Robot position: 1.25215,1.31393
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 139,Robot ID: fb1,Robot position: 1.97575,1.38585
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 139,Robot ID: fb2,Robot position: 1.55417,2.12287
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 140,Robot ID: fb0,Robot position: 1.25186,1.31485
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 140,Robot ID: fb1,Robot position: 1.97658,1.38442
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 140,Robot ID: fb2,Robot position: 1.55306,2.12135
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 141,Robot ID: fb0,Robot position: 1.25158,1.31576
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 141,Robot ID: fb1,Robot position: 1.97739,1.38298
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 141,Robot ID: fb2,Robot position: 1.55198,2.11981
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 142,Robot ID: fb0,Robot position: 1.25131,1.31667
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 142,Robot ID: fb1,Robot position: 1.97819,1.38151
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 142,Robot ID: fb2,Robot position: 1.55091,2.11827
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 143,Robot ID: fb0,Robot position: 1.25103,1.31757
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 143,Robot ID: fb1,Robot position: 1.97898,1.38002
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 143,Robot ID: fb2,Robot position: 1.54987,2.11672
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 144,Robot ID: fb0,Robot position: 1.25076,1.31846
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 144,Robot ID: fb1,Robot position: 1.97974,1.37851
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 144,Robot ID: fb2,Robot position: 1.54885,2.11517
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 145,Robot ID: fb0,Robot position: 1.2505,1.31934
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 145,Robot ID: fb1,Robot position: 1.98049,1.37698
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 145,Robot ID: fb2,Robot position: 1.54785,2.11361
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 146,Robot ID: fb0,Robot position: 1.25024,1.32022
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 146,Robot ID: fb1,Robot position: 1.98122,1.37542
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 146,Robot ID: fb2,Robot position: 1.54688,2.11205
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 147,Robot ID: fb0,Robot position: 1.24999,1.32109
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 147,Robot ID: fb1,Robot position: 1.98193,1.37385
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 147,Robot ID: fb2,Robot position: 1.54592,2.11048
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 148,Robot ID: fb0,Robot position: 1.24974,1.32195
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 148,Robot ID: fb1,Robot position: 1.98263,1.37225
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 148,Robot ID: fb2,Robot position: 1.54499,2.10892
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 149,Robot ID: fb0,Robot position: 1.24949,1.3228
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 149,Robot ID: fb1,Robot position: 1.9833,1.37064
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 149,Robot ID: fb2,Robot position: 1.54408,2.10735
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 150,Robot ID: fb0,Robot position: 1.24925,1.32364
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 150,Robot ID: fb1,Robot position: 1.98395,1.369
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 150,Robot ID: fb2,Robot position: 1.54319,2.10578
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 151,Robot ID: fb0,Robot position: 1.24902,1.32447
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 151,Robot ID: fb1,Robot position: 1.98458,1.36735
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 151,Robot ID: fb2,Robot position: 1.54232,2.10421
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 152,Robot ID: fb0,Robot position: 1.24879,1.32529
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 152,Robot ID: fb1,Robot position: 1.98518,1.36567
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 152,Robot ID: fb2,Robot position: 1.54147,2.10264
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 153,Robot ID: fb0,Robot position: 1.24856,1.3261
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 153,Robot ID: fb1,Robot position: 1.98577,1.36398
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 153,Robot ID: fb2,Robot position: 1.54065,2.10107
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 154,Robot ID: fb0,Robot position: 1.24834,1.3269
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 154,Robot ID: fb1,Robot position: 1.98633,1.36227
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 154,Robot ID: fb2,Robot position: 1.53984,2.09951
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 155,Robot ID: fb0,Robot position: 1.24813,1.32769
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 155,Robot ID: fb1,Robot position: 1.98687,1.36055
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 155,Robot ID: fb2,Robot position: 1.53905,2.09795
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 156,Robot ID: fb0,Robot position: 1.24792,1.32846
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 156,Robot ID: fb1,Robot position: 1.98738,1.35881
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 156,Robot ID: fb2,Robot position: 1.53829,2.09639
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 157,Robot ID: fb0,Robot position: 1.24772,1.32922
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 157,Robot ID: fb1,Robot position: 1.98787,1.35705
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 157,Robot ID: fb2,Robot position: 1.53754,2.09483
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 158,Robot ID: fb0,Robot position: 1.24753,1.32997
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 158,Robot ID: fb1,Robot position: 1.98834,1.35528
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 158,Robot ID: fb2,Robot position: 1.53682,2.09328
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 159,Robot ID: fb0,Robot position: 1.24734,1.33071
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 159,Robot ID: fb1,Robot position: 1.98878,1.35349
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 159,Robot ID: fb2,Robot position: 1.53611,2.09174
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 160,Robot ID: fb0,Robot position: 1.24715,1.33143
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 160,Robot ID: fb1,Robot position: 1.9892,1.35169
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 160,Robot ID: fb2,Robot position: 1.53543,2.0902
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 161,Robot ID: fb0,Robot position: 1.24697,1.33214
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 161,Robot ID: fb1,Robot position: 1.98959,1.34988
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 161,Robot ID: fb2,Robot position: 1.53476,2.08867
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 162,Robot ID: fb0,Robot position: 1.2468,1.33283
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 162,Robot ID: fb1,Robot position: 1.98996,1.34805
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 162,Robot ID: fb2,Robot position: 1.53412,2.08714
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 163,Robot ID: fb0,Robot position: 1.24664,1.3335
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 163,Robot ID: fb1,Robot position: 1.9903,1.34622
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 163,Robot ID: fb2,Robot position: 1.53349,2.08562
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 164,Robot ID: fb0,Robot position: 1.24648,1.33416
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 164,Robot ID: fb1,Robot position: 1.99061,1.34437
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 164,Robot ID: fb2,Robot position: 1.53288,2.08411
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 165,Robot ID: fb0,Robot position: 1.24632,1.3348
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 165,Robot ID: fb1,Robot position: 1.9909,1.34251
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 165,Robot ID: fb2,Robot position: 1.53229,2.08261
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 166,Robot ID: fb0,Robot position: 1.24617,1.33543
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 166,Robot ID: fb1,Robot position: 1.99117,1.34065
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 166,Robot ID: fb2,Robot position: 1.53172,2.08112
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 167,Robot ID: fb0,Robot position: 1.24603,1.33604
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 167,Robot ID: fb1,Robot position: 1.99141,1.33877
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 167,Robot ID: fb2,Robot position: 1.53116,2.07963
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 168,Robot ID: fb0,Robot position: 1.24589,1.33663
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 168,Robot ID: fb1,Robot position: 1.99162,1.33689
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 168,Robot ID: fb2,Robot position: 1.53063,2.07816
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 169,Robot ID: fb0,Robot position: 1.24576,1.3372
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 169,Robot ID: fb1,Robot position: 1.99181,1.335
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 169,Robot ID: fb2,Robot position: 1.53011,2.07669
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 170,Robot ID: fb0,Robot position: 1.24564,1.33775
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 170,Robot ID: fb1,Robot position: 1.99197,1.33311
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 170,Robot ID: fb2,Robot position: 1.5296,2.07524
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 171,Robot ID: fb0,Robot position: 1.24552,1.33829
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 171,Robot ID: fb1,Robot position: 1.9921,1.33121
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 171,Robot ID: fb2,Robot position: 1.52912,2.0738
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 172,Robot ID: fb0,Robot position: 1.2454,1.3388
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 172,Robot ID: fb1,Robot position: 1.99221,1.3293
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 172,Robot ID: fb2,Robot position: 1.52865,2.07236
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 173,Robot ID: fb0,Robot position: 1.24529,1.3393
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 173,Robot ID: fb1,Robot position: 1.9923,1.32739
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 173,Robot ID: fb2,Robot position: 1.52819,2.07094
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 174,Robot ID: fb0,Robot position: 1.24519,1.33978
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 174,Robot ID: fb1,Robot position: 1.99236,1.32547
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 174,Robot ID: fb2,Robot position: 1.52776,2.06953
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 175,Robot ID: fb0,Robot position: 1.24509,1.34023
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 175,Robot ID: fb1,Robot position: 1.99239,1.32356
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 175,Robot ID: fb2,Robot position: 1.52733,2.06814
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 176,Robot ID: fb0,Robot position: 1.245,1.34067
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 176,Robot ID: fb1,Robot position: 1.99241,1.32164
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 176,Robot ID: fb2,Robot position: 1.52693,2.06675
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 177,Robot ID: fb0,Robot position: 1.24491,1.34108
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 177,Robot ID: fb1,Robot position: 1.99239,1.31971
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 177,Robot ID: fb2,Robot position: 1.52654,2.06538
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 178,Robot ID: fb0,Robot position: 1.24483,1.34147
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 178,Robot ID: fb1,Robot position: 1.99235,1.31779
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 178,Robot ID: fb2,Robot position: 1.52616,2.06401
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 179,Robot ID: fb0,Robot position: 1.24475,1.34185
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 179,Robot ID: fb1,Robot position: 1.99229,1.31587
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 179,Robot ID: fb2,Robot position: 1.5258,2.06266
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 180,Robot ID: fb0,Robot position: 1.24468,1.3422
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 180,Robot ID: fb1,Robot position: 1.99221,1.31395
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 180,Robot ID: fb2,Robot position: 1.52545,2.06132
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 181,Robot ID: fb0,Robot position: 1.24461,1.34252
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 181,Robot ID: fb1,Robot position: 1.9921,1.31203
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 181,Robot ID: fb2,Robot position: 1.52511,2.06
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 182,Robot ID: fb0,Robot position: 1.24455,1.34283
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 182,Robot ID: fb1,Robot position: 1.99197,1.31011
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 182,Robot ID: fb2,Robot position: 1.52479,2.05869
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 183,Robot ID: fb0,Robot position: 1.2445,1.34312
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 183,Robot ID: fb1,Robot position: 1.99182,1.30819
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 183,Robot ID: fb2,Robot position: 1.52448,2.05738
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 184,Robot ID: fb0,Robot position: 1.24444,1.34338
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 184,Robot ID: fb1,Robot position: 1.99164,1.30627
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 184,Robot ID: fb2,Robot position: 1.52419,2.05609
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 185,Robot ID: fb0,Robot position: 1.24439,1.34362
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 185,Robot ID: fb1,Robot position: 1.99145,1.30436
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 185,Robot ID: fb2,Robot position: 1.52391,2.05482
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 186,Robot ID: fb0,Robot position: 1.24435,1.34385
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 186,Robot ID: fb1,Robot position: 1.99123,1.30245
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 186,Robot ID: fb2,Robot position: 1.52364,2.05355
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 187,Robot ID: fb0,Robot position: 1.24431,1.34404
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 187,Robot ID: fb1,Robot position: 1.99099,1.30054
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 187,Robot ID: fb2,Robot position: 1.52338,2.0523
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 188,Robot ID: fb0,Robot position: 1.24428,1.34422
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 188,Robot ID: fb1,Robot position: 1.99073,1.29864
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 188,Robot ID: fb2,Robot position: 1.52313,2.05106
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 189,Robot ID: fb0,Robot position: 1.24425,1.34438
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 189,Robot ID: fb1,Robot position: 1.99045,1.29674
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 189,Robot ID: fb2,Robot position: 1.5229,2.04982
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 190,Robot ID: fb0,Robot position: 1.24422,1.34452
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 190,Robot ID: fb1,Robot position: 1.99016,1.29485
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 190,Robot ID: fb2,Robot position: 1.52268,2.04861
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 191,Robot ID: fb0,Robot position: 1.2442,1.34463
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 191,Robot ID: fb1,Robot position: 1.98984,1.29296
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 191,Robot ID: fb2,Robot position: 1.52246,2.0474
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 192,Robot ID: fb0,Robot position: 1.24418,1.34473
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 192,Robot ID: fb1,Robot position: 1.98951,1.29108
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 192,Robot ID: fb2,Robot position: 1.52226,2.0462
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 193,Robot ID: fb0,Robot position: 1.24416,1.34481
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 193,Robot ID: fb1,Robot position: 1.98916,1.2892
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 193,Robot ID: fb2,Robot position: 1.52207,2.04501
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 194,Robot ID: fb0,Robot position: 1.24415,1.34487
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 194,Robot ID: fb1,Robot position: 1.98879,1.28733
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 194,Robot ID: fb2,Robot position: 1.52189,2.04384
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 195,Robot ID: fb0,Robot position: 1.24414,1.34493
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 195,Robot ID: fb1,Robot position: 1.9884,1.28547
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 195,Robot ID: fb2,Robot position: 1.52172,2.04267
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 196,Robot ID: fb0,Robot position: 1.24413,1.34499
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 196,Robot ID: fb1,Robot position: 1.988,1.28361
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 196,Robot ID: fb2,Robot position: 1.52156,2.04152
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 197,Robot ID: fb0,Robot position: 1.24412,1.34505
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 197,Robot ID: fb1,Robot position: 1.98758,1.28177
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 197,Robot ID: fb2,Robot position: 1.52141,2.04037
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 198,Robot ID: fb0,Robot position: 1.24411,1.34506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 198,Robot ID: fb1,Robot position: 1.98715,1.27992
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 198,Robot ID: fb2,Robot position: 1.52127,2.03924
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 199,Robot ID: fb0,Robot position: 1.24411,1.34506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 199,Robot ID: fb1,Robot position: 1.9867,1.27809
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 199,Robot ID: fb2,Robot position: 1.52114,2.03811
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 200,Robot ID: fb0,Robot position: 1.24411,1.34506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 200,Robot ID: fb1,Robot position: 1.98624,1.27626
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 200,Robot ID: fb2,Robot position: 1.52102,2.037
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 201,Robot ID: fb0,Robot position: 1.24411,1.34506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 201,Robot ID: fb1,Robot position: 1.98576,1.27444
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 201,Robot ID: fb2,Robot position: 1.5209,2.03589
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 202,Robot ID: fb0,Robot position: 1.24411,1.34506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 202,Robot ID: fb1,Robot position: 1.98527,1.27263
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 202,Robot ID: fb2,Robot position: 1.5208,2.03479
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 203,Robot ID: fb0,Robot position: 1.24411,1.34506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 203,Robot ID: fb1,Robot position: 1.98477,1.27083
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 203,Robot ID: fb2,Robot position: 1.5207,2.03371
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 204,Robot ID: fb0,Robot position: 1.24396,1.34515
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 204,Robot ID: fb1,Robot position: 1.98426,1.26904
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 204,Robot ID: fb2,Robot position: 1.52062,2.03263
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 205,Robot ID: fb0,Robot position: 1.24377,1.34526
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 205,Robot ID: fb1,Robot position: 1.98373,1.26725
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 205,Robot ID: fb2,Robot position: 1.52054,2.03156
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 206,Robot ID: fb0,Robot position: 1.24356,1.34538
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 206,Robot ID: fb1,Robot position: 1.98319,1.26547
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 206,Robot ID: fb2,Robot position: 1.52047,2.03049
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 207,Robot ID: fb0,Robot position: 1.24333,1.34551
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 207,Robot ID: fb1,Robot position: 1.98264,1.26369
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 207,Robot ID: fb2,Robot position: 1.52041,2.02944
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 208,Robot ID: fb0,Robot position: 1.24308,1.34565
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 208,Robot ID: fb1,Robot position: 1.98208,1.26192
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 208,Robot ID: fb2,Robot position: 1.52036,2.0284
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 209,Robot ID: fb0,Robot position: 1.24282,1.3458
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 209,Robot ID: fb1,Robot position: 1.9815,1.26016
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 209,Robot ID: fb2,Robot position: 1.52031,2.02736
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 210,Robot ID: fb0,Robot position: 1.24254,1.34595
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 210,Robot ID: fb1,Robot position: 1.98092,1.2584
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 210,Robot ID: fb2,Robot position: 1.52027,2.02633
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 211,Robot ID: fb0,Robot position: 1.24224,1.34612
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 211,Robot ID: fb1,Robot position: 1.98032,1.25665
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 211,Robot ID: fb2,Robot position: 1.52024,2.02531
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 212,Robot ID: fb0,Robot position: 1.24191,1.34629
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 212,Robot ID: fb1,Robot position: 1.97971,1.25491
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 212,Robot ID: fb2,Robot position: 1.52022,2.0243
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 213,Robot ID: fb0,Robot position: 1.24158,1.34647
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 213,Robot ID: fb1,Robot position: 1.9791,1.25316
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 213,Robot ID: fb2,Robot position: 1.52021,2.02329
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 214,Robot ID: fb0,Robot position: 1.24122,1.34666
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 214,Robot ID: fb1,Robot position: 1.97847,1.25143
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 214,Robot ID: fb2,Robot position: 1.5202,2.02229
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 215,Robot ID: fb0,Robot position: 1.24084,1.34686
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 215,Robot ID: fb1,Robot position: 1.97783,1.2497
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 215,Robot ID: fb2,Robot position: 1.5202,2.0213
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 216,Robot ID: fb0,Robot position: 1.24044,1.34706
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 216,Robot ID: fb1,Robot position: 1.97718,1.24797
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 216,Robot ID: fb2,Robot position: 1.52021,2.02031
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 217,Robot ID: fb0,Robot position: 1.24002,1.34728
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 217,Robot ID: fb1,Robot position: 1.97653,1.24625
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 217,Robot ID: fb2,Robot position: 1.52022,2.01933
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 218,Robot ID: fb0,Robot position: 1.23959,1.34749
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 218,Robot ID: fb1,Robot position: 1.97586,1.24454
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 218,Robot ID: fb2,Robot position: 1.52025,2.01836
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 219,Robot ID: fb0,Robot position: 1.23913,1.34772
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 219,Robot ID: fb1,Robot position: 1.97518,1.24283
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 219,Robot ID: fb2,Robot position: 1.52028,2.01739
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 220,Robot ID: fb0,Robot position: 1.23866,1.34795
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 220,Robot ID: fb1,Robot position: 1.9745,1.24112
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 220,Robot ID: fb2,Robot position: 1.52032,2.01642
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 221,Robot ID: fb0,Robot position: 1.23816,1.34819
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 221,Robot ID: fb1,Robot position: 1.97381,1.23942
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 221,Robot ID: fb2,Robot position: 1.52036,2.01546
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 222,Robot ID: fb0,Robot position: 1.23765,1.34843
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 222,Robot ID: fb1,Robot position: 1.9731,1.23772
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 222,Robot ID: fb2,Robot position: 1.52042,2.0145
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 223,Robot ID: fb0,Robot position: 1.23711,1.34867
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 223,Robot ID: fb1,Robot position: 1.97239,1.23602
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 223,Robot ID: fb2,Robot position: 1.52048,2.01355
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 224,Robot ID: fb0,Robot position: 1.23656,1.34892
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 224,Robot ID: fb1,Robot position: 1.97167,1.23433
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 224,Robot ID: fb2,Robot position: 1.52055,2.0126
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 225,Robot ID: fb0,Robot position: 1.23598,1.34918
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 225,Robot ID: fb1,Robot position: 1.97094,1.23264
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 225,Robot ID: fb2,Robot position: 1.52062,2.01165
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 226,Robot ID: fb0,Robot position: 1.23539,1.34943
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 226,Robot ID: fb1,Robot position: 1.9702,1.23096
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 226,Robot ID: fb2,Robot position: 1.52071,2.01071
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 227,Robot ID: fb0,Robot position: 1.23477,1.34969
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 227,Robot ID: fb1,Robot position: 1.96945,1.22928
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 227,Robot ID: fb2,Robot position: 1.5208,2.00976
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 228,Robot ID: fb0,Robot position: 1.23414,1.34996
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 228,Robot ID: fb1,Robot position: 1.9687,1.2276
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 228,Robot ID: fb2,Robot position: 1.5209,2.00882
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 229,Robot ID: fb0,Robot position: 1.23348,1.35022
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 229,Robot ID: fb1,Robot position: 1.96793,1.22593
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 229,Robot ID: fb2,Robot position: 1.52101,2.00788
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 230,Robot ID: fb0,Robot position: 1.23281,1.35048
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 230,Robot ID: fb1,Robot position: 1.96716,1.22426
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 230,Robot ID: fb2,Robot position: 1.52112,2.00694
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 231,Robot ID: fb0,Robot position: 1.23211,1.35075
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 231,Robot ID: fb1,Robot position: 1.96638,1.22259
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 231,Robot ID: fb2,Robot position: 1.52125,2.006
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 232,Robot ID: fb0,Robot position: 1.2314,1.35101
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 232,Robot ID: fb1,Robot position: 1.96559,1.22093
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 232,Robot ID: fb2,Robot position: 1.52138,2.00506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 233,Robot ID: fb0,Robot position: 1.23066,1.35128
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 233,Robot ID: fb1,Robot position: 1.9648,1.21926
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 233,Robot ID: fb2,Robot position: 1.52152,2.00412
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 234,Robot ID: fb0,Robot position: 1.22991,1.35154
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 234,Robot ID: fb1,Robot position: 1.96399,1.2176
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 234,Robot ID: fb2,Robot position: 1.52167,2.00318
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 235,Robot ID: fb0,Robot position: 1.22913,1.3518
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 235,Robot ID: fb1,Robot position: 1.96318,1.21595
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 235,Robot ID: fb2,Robot position: 1.52183,2.00224
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 236,Robot ID: fb0,Robot position: 1.22834,1.35206
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 236,Robot ID: fb1,Robot position: 1.96235,1.21429
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 236,Robot ID: fb2,Robot position: 1.522,2.0013
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 237,Robot ID: fb0,Robot position: 1.22753,1.35231
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 237,Robot ID: fb1,Robot position: 1.96152,1.21264
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 237,Robot ID: fb2,Robot position: 1.52218,2.00035
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 238,Robot ID: fb0,Robot position: 1.2267,1.35257
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 238,Robot ID: fb1,Robot position: 1.96069,1.21099
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 238,Robot ID: fb2,Robot position: 1.52237,1.99941
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 239,Robot ID: fb0,Robot position: 1.22585,1.35281
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 239,Robot ID: fb1,Robot position: 1.95984,1.20934
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 239,Robot ID: fb2,Robot position: 1.52257,1.99846
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 240,Robot ID: fb0,Robot position: 1.22498,1.35305
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 240,Robot ID: fb1,Robot position: 1.95898,1.20769
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 240,Robot ID: fb2,Robot position: 1.52277,1.99751
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 241,Robot ID: fb0,Robot position: 1.22409,1.35329
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 241,Robot ID: fb1,Robot position: 1.95812,1.20605
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 241,Robot ID: fb2,Robot position: 1.52299,1.99656
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 242,Robot ID: fb0,Robot position: 1.22318,1.35352
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 242,Robot ID: fb1,Robot position: 1.95725,1.20441
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 242,Robot ID: fb2,Robot position: 1.52322,1.99561
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 243,Robot ID: fb0,Robot position: 1.22226,1.35374
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 243,Robot ID: fb1,Robot position: 1.95637,1.20277
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 243,Robot ID: fb2,Robot position: 1.52346,1.99465
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 244,Robot ID: fb0,Robot position: 1.22132,1.35396
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 244,Robot ID: fb1,Robot position: 1.95548,1.20113
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 244,Robot ID: fb2,Robot position: 1.52371,1.99369
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 245,Robot ID: fb0,Robot position: 1.22036,1.35417
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 245,Robot ID: fb1,Robot position: 1.95459,1.1995
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 245,Robot ID: fb2,Robot position: 1.52398,1.99273
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 246,Robot ID: fb0,Robot position: 1.21939,1.35437
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 246,Robot ID: fb1,Robot position: 1.95368,1.19786
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 246,Robot ID: fb2,Robot position: 1.52425,1.99177
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 247,Robot ID: fb0,Robot position: 1.2184,1.35455
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 247,Robot ID: fb1,Robot position: 1.95277,1.19623
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 247,Robot ID: fb2,Robot position: 1.52454,1.9908
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 248,Robot ID: fb0,Robot position: 1.2174,1.35474
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 248,Robot ID: fb1,Robot position: 1.95185,1.1946
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 248,Robot ID: fb2,Robot position: 1.52483,1.98983
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 249,Robot ID: fb0,Robot position: 1.21638,1.3549
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 249,Robot ID: fb1,Robot position: 1.95092,1.19297
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 249,Robot ID: fb2,Robot position: 1.52514,1.98886
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 250,Robot ID: fb0,Robot position: 1.21535,1.35506
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 250,Robot ID: fb1,Robot position: 1.94999,1.19135
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 250,Robot ID: fb2,Robot position: 1.52546,1.98789
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 251,Robot ID: fb0,Robot position: 1.21431,1.35521
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 251,Robot ID: fb1,Robot position: 1.94904,1.18972
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 251,Robot ID: fb2,Robot position: 1.5258,1.98692
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 252,Robot ID: fb0,Robot position: 1.21325,1.35535
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 252,Robot ID: fb1,Robot position: 1.94809,1.1881
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 252,Robot ID: fb2,Robot position: 1.52614,1.98594
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 253,Robot ID: fb0,Robot position: 1.21218,1.35547
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 253,Robot ID: fb1,Robot position: 1.94713,1.18648
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 253,Robot ID: fb2,Robot position: 1.5265,1.98497
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 254,Robot ID: fb0,Robot position: 1.2111,1.35558
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 254,Robot ID: fb1,Robot position: 1.94616,1.18486
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 254,Robot ID: fb2,Robot position: 1.52687,1.98399
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 255,Robot ID: fb0,Robot position: 1.21002,1.35568
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 255,Robot ID: fb1,Robot position: 1.94519,1.18325
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 255,Robot ID: fb2,Robot position: 1.52726,1.98301
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 256,Robot ID: fb0,Robot position: 1.20892,1.35577
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 256,Robot ID: fb1,Robot position: 1.9442,1.18163
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 256,Robot ID: fb2,Robot position: 1.52765,1.98204
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 257,Robot ID: fb0,Robot position: 1.20781,1.35584
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 257,Robot ID: fb1,Robot position: 1.94321,1.18002
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 257,Robot ID: fb2,Robot position: 1.52806,1.98106
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 258,Robot ID: fb0,Robot position: 1.2067,1.3559
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 258,Robot ID: fb1,Robot position: 1.94221,1.17841
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 258,Robot ID: fb2,Robot position: 1.52848,1.98008
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 259,Robot ID: fb0,Robot position: 1.20558,1.35595
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 259,Robot ID: fb1,Robot position: 1.9412,1.17681
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 259,Robot ID: fb2,Robot position: 1.52891,1.97911
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 260,Robot ID: fb0,Robot position: 1.20446,1.35598
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 260,Robot ID: fb1,Robot position: 1.94019,1.1752
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 260,Robot ID: fb2,Robot position: 1.52935,1.97814
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 261,Robot ID: fb0,Robot position: 1.20333,1.35599
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 261,Robot ID: fb1,Robot position: 1.93916,1.1736
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 261,Robot ID: fb2,Robot position: 1.52981,1.97716
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 262,Robot ID: fb0,Robot position: 1.20219,1.356
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 262,Robot ID: fb1,Robot position: 1.93813,1.172
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 262,Robot ID: fb2,Robot position: 1.53028,1.9762
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 263,Robot ID: fb0,Robot position: 1.20106,1.35599
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 263,Robot ID: fb1,Robot position: 1.93709,1.17041
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 263,Robot ID: fb2,Robot position: 1.53076,1.97523
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 264,Robot ID: fb0,Robot position: 1.19992,1.35596
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 264,Robot ID: fb1,Robot position: 1.93605,1.16882
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 264,Robot ID: fb2,Robot position: 1.53125,1.97427
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 265,Robot ID: fb0,Robot position: 1.19878,1.35592
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 265,Robot ID: fb1,Robot position: 1.93499,1.16723
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 265,Robot ID: fb2,Robot position: 1.53175,1.97331
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 266,Robot ID: fb0,Robot position: 1.19765,1.35587
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 266,Robot ID: fb1,Robot position: 1.93393,1.16564
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 266,Robot ID: fb2,Robot position: 1.53226,1.97235
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 267,Robot ID: fb0,Robot position: 1.19651,1.3558
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 267,Robot ID: fb1,Robot position: 1.93286,1.16405
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 267,Robot ID: fb2,Robot position: 1.53278,1.9714
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 268,Robot ID: fb0,Robot position: 1.19538,1.35572
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 268,Robot ID: fb1,Robot position: 1.93179,1.16247
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 268,Robot ID: fb2,Robot position: 1.53331,1.97046
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 269,Robot ID: fb0,Robot position: 1.19425,1.35563
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 269,Robot ID: fb1,Robot position: 1.93071,1.1609
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 269,Robot ID: fb2,Robot position: 1.53385,1.96952
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 270,Robot ID: fb0,Robot position: 1.19312,1.35552
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 270,Robot ID: fb1,Robot position: 1.92962,1.15932
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 270,Robot ID: fb2,Robot position: 1.5344,1.96859
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 271,Robot ID: fb0,Robot position: 1.192,1.3554
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 271,Robot ID: fb1,Robot position: 1.92852,1.15775
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 271,Robot ID: fb2,Robot position: 1.53496,1.96766
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 272,Robot ID: fb0,Robot position: 1.19088,1.35527
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 272,Robot ID: fb1,Robot position: 1.92742,1.15619
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 272,Robot ID: fb2,Robot position: 1.53553,1.96674
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 273,Robot ID: fb0,Robot position: 1.18977,1.35512
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 273,Robot ID: fb1,Robot position: 1.92631,1.15463
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 273,Robot ID: fb2,Robot position: 1.53611,1.96582
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 274,Robot ID: fb0,Robot position: 1.18867,1.35497
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 274,Robot ID: fb1,Robot position: 1.9252,1.15307
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 274,Robot ID: fb2,Robot position: 1.53669,1.96491
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 275,Robot ID: fb0,Robot position: 1.18757,1.3548
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 275,Robot ID: fb1,Robot position: 1.92408,1.15151
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 275,Robot ID: fb2,Robot position: 1.53728,1.96401
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 276,Robot ID: fb0,Robot position: 1.18649,1.35462
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 276,Robot ID: fb1,Robot position: 1.92295,1.14996
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 276,Robot ID: fb2,Robot position: 1.53788,1.96312
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 277,Robot ID: fb0,Robot position: 1.18541,1.35443
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 277,Robot ID: fb1,Robot position: 1.92182,1.14842
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 277,Robot ID: fb2,Robot position: 1.53848,1.96223
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 278,Robot ID: fb0,Robot position: 1.18434,1.35423
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 278,Robot ID: fb1,Robot position: 1.92068,1.14688
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 278,Robot ID: fb2,Robot position: 1.53909,1.96136
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 279,Robot ID: fb0,Robot position: 1.18328,1.35402
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 279,Robot ID: fb1,Robot position: 1.91954,1.14534
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 279,Robot ID: fb2,Robot position: 1.53971,1.96048
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 280,Robot ID: fb0,Robot position: 1.18223,1.3538
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 280,Robot ID: fb1,Robot position: 1.91839,1.14381
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 280,Robot ID: fb2,Robot position: 1.54033,1.95962
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 281,Robot ID: fb0,Robot position: 1.1812,1.35357
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 281,Robot ID: fb1,Robot position: 1.91724,1.14228
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 281,Robot ID: fb2,Robot position: 1.54096,1.95877
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 282,Robot ID: fb0,Robot position: 1.18017,1.35334
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 282,Robot ID: fb1,Robot position: 1.91608,1.14076
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 282,Robot ID: fb2,Robot position: 1.54159,1.95792
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 283,Robot ID: fb0,Robot position: 1.17916,1.35309
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 283,Robot ID: fb1,Robot position: 1.91492,1.13924
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 283,Robot ID: fb2,Robot position: 1.54223,1.95708
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 284,Robot ID: fb0,Robot position: 1.17816,1.35284
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 284,Robot ID: fb1,Robot position: 1.91375,1.13773
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 284,Robot ID: fb2,Robot position: 1.54287,1.95625
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 285,Robot ID: fb0,Robot position: 1.17717,1.35258
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 285,Robot ID: fb1,Robot position: 1.91258,1.13622
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 285,Robot ID: fb2,Robot position: 1.54351,1.95542
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 286,Robot ID: fb0,Robot position: 1.17619,1.35232
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 286,Robot ID: fb1,Robot position: 1.91141,1.13472
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 286,Robot ID: fb2,Robot position: 1.54416,1.95461
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 287,Robot ID: fb0,Robot position: 1.17523,1.35205
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 287,Robot ID: fb1,Robot position: 1.91023,1.13322
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 287,Robot ID: fb2,Robot position: 1.54481,1.9538
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 288,Robot ID: fb0,Robot position: 1.17428,1.35177
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 288,Robot ID: fb1,Robot position: 1.90904,1.13173
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 288,Robot ID: fb2,Robot position: 1.54546,1.953
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 289,Robot ID: fb0,Robot position: 1.17335,1.35149
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 289,Robot ID: fb1,Robot position: 1.90786,1.13025
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 289,Robot ID: fb2,Robot position: 1.54611,1.9522
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 290,Robot ID: fb0,Robot position: 1.17243,1.3512
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 290,Robot ID: fb1,Robot position: 1.90667,1.12877
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 290,Robot ID: fb2,Robot position: 1.54677,1.95142
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 291,Robot ID: fb0,Robot position: 1.17152,1.35091
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 291,Robot ID: fb1,Robot position: 1.90548,1.12729
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 291,Robot ID: fb2,Robot position: 1.54743,1.95064
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 292,Robot ID: fb0,Robot position: 1.17062,1.35061
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 292,Robot ID: fb1,Robot position: 1.90428,1.12582
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 292,Robot ID: fb2,Robot position: 1.54809,1.94986
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 293,Robot ID: fb0,Robot position: 1.16974,1.35032
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 293,Robot ID: fb1,Robot position: 1.90309,1.12435
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 293,Robot ID: fb2,Robot position: 1.54876,1.9491
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 294,Robot ID: fb0,Robot position: 1.16888,1.35001
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 294,Robot ID: fb1,Robot position: 1.90189,1.12289
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 294,Robot ID: fb2,Robot position: 1.54942,1.94834
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 295,Robot ID: fb0,Robot position: 1.16803,1.34971
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 295,Robot ID: fb1,Robot position: 1.9007,1.12143
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 295,Robot ID: fb2,Robot position: 1.55009,1.94759
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 296,Robot ID: fb0,Robot position: 1.16719,1.3494
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 296,Robot ID: fb1,Robot position: 1.89951,1.11997
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 296,Robot ID: fb2,Robot position: 1.55076,1.94684
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 297,Robot ID: fb0,Robot position: 1.16636,1.34909
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 297,Robot ID: fb1,Robot position: 1.89832,1.11851
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 297,Robot ID: fb2,Robot position: 1.55143,1.9461
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 298,Robot ID: fb0,Robot position: 1.16555,1.34878
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 298,Robot ID: fb1,Robot position: 1.89714,1.11705
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 298,Robot ID: fb2,Robot position: 1.5521,1.94536
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 299,Robot ID: fb0,Robot position: 1.16476,1.34846
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 299,Robot ID: fb1,Robot position: 1.89596,1.1156
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 299,Robot ID: fb2,Robot position: 1.55277,1.94463
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 300,Robot ID: fb0,Robot position: 1.16397,1.34815
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 300,Robot ID: fb1,Robot position: 1.89477,1.11415
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 300,Robot ID: fb2,Robot position: 1.55345,1.94391
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 301,Robot ID: fb0,Robot position: 1.1632,1.34783
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 301,Robot ID: fb1,Robot position: 1.89359,1.1127
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 301,Robot ID: fb2,Robot position: 1.55412,1.94318
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 302,Robot ID: fb0,Robot position: 1.16245,1.34752
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 302,Robot ID: fb1,Robot position: 1.89242,1.11126
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 302,Robot ID: fb2,Robot position: 1.5548,1.94247
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 303,Robot ID: fb0,Robot position: 1.1617,1.3472
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 303,Robot ID: fb1,Robot position: 1.89124,1.10981
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 303,Robot ID: fb2,Robot position: 1.55547,1.94176
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 304,Robot ID: fb0,Robot position: 1.16097,1.34688
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 304,Robot ID: fb1,Robot position: 1.89007,1.10838
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 304,Robot ID: fb2,Robot position: 1.55615,1.94105
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 305,Robot ID: fb0,Robot position: 1.16026,1.34656
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 305,Robot ID: fb1,Robot position: 1.8889,1.10694
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 305,Robot ID: fb2,Robot position: 1.55683,1.94035
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 306,Robot ID: fb0,Robot position: 1.15955,1.34625
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 306,Robot ID: fb1,Robot position: 1.88773,1.1055
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 306,Robot ID: fb2,Robot position: 1.55751,1.93965
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 307,Robot ID: fb0,Robot position: 1.15886,1.34593
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 307,Robot ID: fb1,Robot position: 1.88657,1.10407
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 307,Robot ID: fb2,Robot position: 1.55819,1.93895
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 308,Robot ID: fb0,Robot position: 1.15818,1.34561
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 308,Robot ID: fb1,Robot position: 1.8854,1.10265
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 308,Robot ID: fb2,Robot position: 1.55887,1.93826
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 309,Robot ID: fb0,Robot position: 1.15752,1.3453
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 309,Robot ID: fb1,Robot position: 1.88424,1.10122
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 309,Robot ID: fb2,Robot position: 1.55955,1.93757
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 310,Robot ID: fb0,Robot position: 1.15686,1.34498
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 310,Robot ID: fb1,Robot position: 1.88308,1.0998
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 310,Robot ID: fb2,Robot position: 1.56024,1.93688
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 311,Robot ID: fb0,Robot position: 1.15622,1.34467
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 311,Robot ID: fb1,Robot position: 1.88193,1.09838
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 311,Robot ID: fb2,Robot position: 1.56092,1.9362
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 312,Robot ID: fb0,Robot position: 1.15559,1.34436
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 312,Robot ID: fb1,Robot position: 1.88077,1.09696
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 312,Robot ID: fb2,Robot position: 1.56161,1.93551
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 313,Robot ID: fb0,Robot position: 1.15497,1.34405
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 313,Robot ID: fb1,Robot position: 1.87962,1.09555
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 313,Robot ID: fb2,Robot position: 1.56229,1.93483
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 314,Robot ID: fb0,Robot position: 1.15436,1.34374
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 314,Robot ID: fb1,Robot position: 1.87848,1.09414
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 314,Robot ID: fb2,Robot position: 1.56298,1.93415
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 315,Robot ID: fb0,Robot position: 1.15377,1.34343
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 315,Robot ID: fb1,Robot position: 1.87733,1.09273
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 315,Robot ID: fb2,Robot position: 1.56367,1.93348
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 316,Robot ID: fb0,Robot position: 1.15318,1.34312
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 316,Robot ID: fb1,Robot position: 1.87619,1.09133
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 316,Robot ID: fb2,Robot position: 1.56435,1.9328
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 317,Robot ID: fb0,Robot position: 1.15261,1.34282
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 317,Robot ID: fb1,Robot position: 1.87505,1.08993
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
+Clock: 317,Robot ID: fb2,Robot position: 1.56504,1.93213
+Light position: 1,-2
+Robots in hot pursuit
+Robots in hot pursuit
+Robots in hot pursuit
