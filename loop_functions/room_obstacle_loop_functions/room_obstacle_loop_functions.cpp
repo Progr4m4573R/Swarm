@@ -6,7 +6,7 @@
 #include <argos3/plugins/simulator/entities/light_entity.h>
 
 
-//Making a random directory to write my performance.txt to
+//Making  directory to write my performance.txt to
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -17,6 +17,9 @@
 #include <stdio.h>
 #include <limits.h>
 
+//Get the Date and time for my file name
+#include <iostream>
+#include <ctime>
 
 CRoomobstacleLoopFunctions::CRoomobstacleLoopFunctions() 
 {
@@ -35,15 +38,20 @@ void CRoomobstacleLoopFunctions::Init(TConfigurationNode& t_node) {
       if(getcwd(cwd, sizeof(cwd)) !=NULL){
          printf("Current working directory:%s\n", cwd);
       }else{
-         perror("getcwd()error");
+         perror("getcwd() error");
       }
-      //change this so i can create the folder in my Swarm directory
-      string dup_folder = cwd;
+      
+      time_t now = time(0);
+      char* dt = ctime(&now);
+      
+      
+      //should go up two directories and make the performance_folder in the Swarm directory
+      working_directory = cwd+../../performance_folder+dt;
       
       
       struct stat st = {0};// checking if the directory already exists
 
-      if (stat(dup_folder, &st) == -1){
+      if (stat(working_directory, &st) == -1){
          mkdir(working_directory, 0700);
       }
       
