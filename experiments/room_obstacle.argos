@@ -128,7 +128,7 @@
   <!-- ****************** -->
   <!-- * Visualization * -->
   <!-- ****************** -->
-  <visualization>
+  <!-- <visualization>
     <qt-opengl>
       <camera>
         <placement idx="0"
@@ -138,6 +138,6 @@
                    lens_focal_length="20" />
       </camera>
     </qt-opengl>
-  </visualization>
+  </visualization> -->
 
 </argos-configuration>
