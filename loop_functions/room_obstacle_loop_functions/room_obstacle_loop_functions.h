@@ -20,10 +20,10 @@ public:
 
 private:
 
-   std::string m_strOutput;
-   std::ofstream m_cOutput;
-   string working_directory = "";
-   char cwd = '';
+   int random_seed;
+   std::string output_folder;
+   std::string output_filename;
+   std::ofstream output_file;
 };
 
 #endif
