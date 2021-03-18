@@ -8,7 +8,7 @@ output_folder=$(date '+%Y_%m_%d_%s') #uses the date command on linux to automati
 mkdir -p "output/$output_folder"
 mkdir "experiments/$output_folder" #creates temporary folder in experiments folder
 
-config="experiments/$2.argos" #copies original argos file into herer then modifies it
+config="experiments/$2.argos" #copies original argos file into here then modifies it
 
 cp $config "output/$output_folder" #copies the config file into the temporary folder
 
