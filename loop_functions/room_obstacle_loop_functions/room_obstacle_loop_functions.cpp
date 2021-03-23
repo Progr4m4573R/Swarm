@@ -112,16 +112,21 @@ void CRoomobstacleLoopFunctions::PreStep() {
       cPos.Set(cFootBot.GetEmbodiedEntity().GetOriginAnchor().Position.GetX(),
                cFootBot.GetEmbodiedEntity().GetOriginAnchor().Position.GetY());
      
-      output_file <<"Clock: "<< GetSpace().GetSimulationClock() << ",";
-      output_file <<"Robot ID: "<< cFootBot.GetId() << ",";
-      output_file <<"Robot position: " <<cPos << std::endl;
+      // output_file <<"Clock: "<< GetSpace().GetSimulationClock() << ",";
+      // output_file <<"Robot ID: "<< cFootBot.GetId() << ",";
+      // output_file <<"Robot position: " <<cPos << std::endl;
+      
+      output_file << GetSpace().GetSimulationClock() << ",";
+      output_file << cFootBot.GetId() << ",";
+      output_file <<cPos.GetX() << "," <<cPos.GetY() << std::endl;
+
 
       if (Distance(cPos,lightPos)<1){// if the euclidean distance is less than 1 meter in the simulation
       output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << "Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
       break;
       }
       else{
-	output_file << "Robots in hot pursuit......."<<std::endl;
+	      //output_file << "Robots in hot pursuit......."<<std::endl;
       }
     
   }
