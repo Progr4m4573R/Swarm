@@ -31,35 +31,26 @@ CRoomobstacleLoopFunctions::CRoomobstacleLoopFunctions()
 
 void CRoomobstacleLoopFunctions::Init(TConfigurationNode& t_node) {
    try {
-      TConfigurationNode& tRoomobstacle = GetNode(t_node, "room_obstacle");
-      //https://stackoverflow.com/questions/7430248/creating-a-new-directory-in-c
-      
-      cwd[PATH_MAX];
-      if(getcwd(cwd, sizeof(cwd)) !=NULL){
-         printf("Current working directory:%s\n", cwd);
-      }else{
-         perror("getcwd() error");
-      }
-      
-      time_t now = time(0);
-      char* dt = ctime(&now);
-      
-      
-      //should go up two directories and make the performance_folder in the Swarm directory
-      working_directory = cwd+../../performance_folder+dt;
-      
-      
-      struct stat st = {0};// checking if the directory already exists
+      // Get random seed
+      TConfigurationNode& configuration_tree = CSimulator::GetInstance().GetConfigurationRoot();
+      TConfigurationNode& framework_node = GetNode(configuration_tree, "framework");
+      TConfigurationNode& experiment_node = GetNode(framework_node, "experiment");
+      GetNodeAttribute(experiment_node, "random_seed", random_seed);
 
-      if (stat(working_directory, &st) == -1){
-         mkdir(working_directory, 0700);
-      }
-      
+      TConfigurationNode& tRoomobstacle = GetNode(t_node, "room_obstacle");      
       
       /* Get the output file name from XML */
-      GetNodeAttribute(tRoomobstacle, "output", m_strOutput);
+      GetNodeAttribute(tRoomobstacle, "output_filename", output_filename);
+      GetNodeAttribute(tRoomobstacle, "output_folder", output_folder);
+
+      std::ostringstream oss;
+      oss << "output/" << output_folder << "/" << output_filename << "_" << random_seed << ".txt";
+      output_filename = oss.str();
+
+      printf("Writing to file: %s\n", output_filename.c_str());
+
       /* Open the file, erasing its contents */
-      m_cOutput.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
+      output_file.open(output_filename.c_str(), std::ios_base::trunc | std::ios_base::out);
       
       /* Get how long it takes each bot to reach a destination */
       /* Get the id of each bot */
@@ -76,9 +67,9 @@ void CRoomobstacleLoopFunctions::Init(TConfigurationNode& t_node) {
 
 void CRoomobstacleLoopFunctions::Reset() {
    /* Close the file */
-   m_cOutput.close();
+   output_file.close();
    /* Open the file, erasing its contents */
-   m_cOutput.open(m_strOutput.c_str(), std::ios_base::trunc | std::ios_base::out);
+   output_file.open(output_filename.c_str(), std::ios_base::trunc | std::ios_base::out);
 
 }
 
@@ -87,7 +78,7 @@ void CRoomobstacleLoopFunctions::Reset() {
 
 void CRoomobstacleLoopFunctions::Destroy() {
    /* Close the file */
-   m_cOutput.close();
+   output_file.close();
 }
 
 /****************************************/
@@ -121,17 +112,16 @@ void CRoomobstacleLoopFunctions::PreStep() {
       cPos.Set(cFootBot.GetEmbodiedEntity().GetOriginAnchor().Position.GetX(),
                cFootBot.GetEmbodiedEntity().GetOriginAnchor().Position.GetY());
      
-      m_cOutput <<"Clock: "<< GetSpace().GetSimulationClock() << ",";
-      m_cOutput <<"Robot ID: "<< cFootBot.GetId() << ",";
-      m_cOutput <<"Robot position: " <<cPos << std::endl;
-
+      output_file <<"Clock: "<< GetSpace().GetSimulationClock() << ",";
+      output_file <<"Robot ID: "<< cFootBot.GetId() << ",";
+      output_file <<"Robot position: " <<cPos << std::endl;
 
       if (Distance(cPos,lightPos)<1){// if the euclidean distance is less than 1 meter in the simulation
-      m_cOutput <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << "Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
+      output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << "Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
       break;
       }
       else{
-	m_cOutput << "Robots in hot pursuit......."<<std::endl;
+	output_file << "Robots in hot pursuit......."<<std::endl;
       }
     
   }

@@ -6,7 +6,7 @@
   <!-- ************************* -->
   <framework>
     <system threads="0" />
-    <experiment length="0"
+    <experiment length="60"
                 ticks_per_second="10"
                 random_seed="124" />
                 
@@ -53,7 +53,8 @@
   <!-- ****************** -->
   <loop_functions library="build/loop_functions/room_obstacle_loop_functions/libroom_obstacle_loop_functions"
                   label="room_obstacle_loop_functions">
-    <room_obstacle output="robot_perormance.txt" />
+    <room_obstacle output_folder="results"
+                   output_filename="robot_performance" />
   </loop_functions>
 
   <!-- *********************** -->
