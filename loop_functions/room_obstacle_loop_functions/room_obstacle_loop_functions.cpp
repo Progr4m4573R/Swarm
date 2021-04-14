@@ -122,9 +122,11 @@ void CRoomobstacleLoopFunctions::PreStep() {
 
 
       if (Distance(cPos,lightPos)<1){// if the euclidean distance is less than 1 meter in the simulation
-      output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << "Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
-      break;
+      //output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << " Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
+      CRoomobstacleLoopFunctions::Destroy();
+      // end simulation 
       }
+      
   }
   //possible add a time limit and if robots fail to reach goal in that time print out something?
 }

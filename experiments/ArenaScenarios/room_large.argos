@@ -62,12 +62,13 @@
   <!-- *********************** -->
 
 <!-- SCENRAIO 1 NAVIGATING PAST OBSTACLES -->
-<arena size="5,5,1" center="0,0,0.5"> 
+<!-- Default testing arena -->  
+    <arena size="30,30,1" center="0,0,0.5">
    
    <!--****************** -->
    <!--* Attempted room with light *-->    	
     <light id="light"
-           position="1,-2,0.5"
+           position="5,2.5,0.5"
            orientation="0,0,0"
            color="yellow"
            intensity="3.0"
@@ -84,9 +85,9 @@
     -->
     
     <distribute>
-      <position method="uniform" min="1,1,0" max="2,2,0" />
+      <position method="uniform" min="4,4,0" max="5,5,0" />
       <orientation method="gaussian" mean="0,0,0" std_dev="360,0,0" />
-      <entity quantity="3" max_trials="100">
+      <entity quantity="10" max_trials="100">
         <foot-bot id="fb" omnidirectional_camera_aperture="80">
           <controller config="fnc" />
         </foot-bot>
@@ -95,21 +96,28 @@
 	<!--
         We distribute 5 boxes uniformly in position and rotation around Z.
     -->
-  <box id="wall 1" size="3,0.1,0.5" movable="false">
-    <body position="0,1,0" orientation="0,0,0" />
-  </box>
-  <box id="wall 2" size="3,0.1,0.5" movable="false">
-    <body position="0,1,0" orientation="90,0,0" />
-  </box>
-  <box id="wall 3" size="1,0.1,0.5" movable="false">
-    <body position="2,-0.5,0" orientation="0,0,0" />
-  </box>
+    <distribute>
+      <position method="uniform" min="2,2,0" max="5,5,0" />
+      <orientation method="uniform" min="0,0,0" max="360,0,0" />
+      <entity quantity="5" max_trials="100">
+        <box id="b" size="0.3,0.3,0.5" movable="false" />
+      </entity>
+    </distribute>
+
     <!--
         We distribute cylinders uniformly in position and with
         constant rotation (rotating a cylinder around Z does not
         matter)
     -->
+    <distribute>
+      <position method="uniform" min="2,2,0" max="5,5,0" />
+      <orientation method="constant" values="0,0,0" />
+      <entity quantity="5" max_trials="100">
+        <cylinder id="c" height="0.5" radius="0.15" movable="false" />
+      </entity>
+    </distribute>
   </arena>
+<!-- Default testing arena -->
   <!-- SCENRAIO 1 NAVIGATING PAST OBSTACLES -->
 
   <!-- ******************* -->
@@ -129,16 +137,39 @@
   <!-- ****************** -->
   <!-- * Visualization * -->
   <!-- ****************** -->
-  <!-- <visualization>
+  <visualization>
     <qt-opengl>
       <camera>
-        <placement idx="0"
-                   position="0.33539,0.60355,4.06253"
-                   look_at="0.70428,0.92503,0.686605"
-                   up = "1,0,0"
-                   lens_focal_length="20" />
+        <placements>
+          <placement index="0" position="0,0,8.14689" look_at="0,0,0" up="1,0,0" lens_focal_length="65" />
+        </placements>
       </camera>
     </qt-opengl>
-  </visualization> -->
+  </visualization>
 
 </argos-configuration>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+

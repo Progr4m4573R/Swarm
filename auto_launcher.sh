@@ -32,7 +32,8 @@ do
 done
 
 rm -rf "experiments/$output_folder" # Delete temporary configuration files (no longer needed)
-#first input is experiment name i.e room_obstacle, second input is the number of times to run
+#first input is experiment name i.e room_obstacle, second input is the number of times to run example: ./auto_launcher.sh 10 ArenaScenarios/room_empty
+
 
 #INTERESTING NOTES
 #(sed is a linux command that finds and replaces things)
