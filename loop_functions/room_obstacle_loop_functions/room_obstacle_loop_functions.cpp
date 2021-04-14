@@ -123,7 +123,7 @@ void CRoomobstacleLoopFunctions::PreStep() {
 
       if (Distance(cPos,lightPos)<1){// if the euclidean distance is less than 1 meter in the simulation
       //output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << " Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
-      CRoomobstacleLoopFunctions::Destroy();
+      //CRoomobstacleLoopFunctions::Destroy();
       // end simulation 
       }
       
