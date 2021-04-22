@@ -66,7 +66,7 @@
   <!-- * Arena configuration * -->
   <!-- *********************** -->
     <!-- Test room for making sure that the robots cannot see through walls -->
-    <arena size="5,5,1" center="0,0,0.5"> 
+    <arena size="7,7,1" center="0,0,0.5"> 
     
     <!--****************** -->
     <!--* Attempted room with light *-->    	
@@ -89,7 +89,7 @@
         
         <distribute>
         <position method="uniform" min="1,1,0" max="2,2,0" />
-        <orientation method="gaussian" mean="0,0,0" std_dev="360,0,0" />
+        <orientation method="uniform" mean="0,0,0" std_dev="360,0,0" />
         <entity quantity="10" max_trials="100">
             <foot-bot id="fb" omnidirectional_camera_aperture="80">
             <controller config="fnc" />

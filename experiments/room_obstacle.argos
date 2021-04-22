@@ -62,7 +62,7 @@
   <!-- *********************** -->
 
 <!-- SCENRAIO 1 NAVIGATING PAST OBSTACLES -->
-<arena size="5,5,1" center="0,0,0.5"> 
+<arena size="7,7,1" center="0,0,0.5"> <!--Made the arena larger to prevent robots spawning intp the wall-->
    
    <!--****************** -->
    <!--* Attempted room with light *-->    	
@@ -85,7 +85,7 @@
     
     <distribute>
       <position method="uniform" min="1,1,0" max="2,2,0" />
-      <orientation method="gaussian" mean="0,0,0" std_dev="360,0,0" />
+      <orientation method="uniform" mean="0,0,0" std_dev="360,0,0" />
       <entity quantity="10" max_trials="100">
         <foot-bot id="fb" omnidirectional_camera_aperture="80">
           <controller config="fnc" />
