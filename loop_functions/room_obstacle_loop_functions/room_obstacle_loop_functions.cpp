@@ -134,7 +134,7 @@ void CRoomobstacleLoopFunctions::PreStep() {
          // end simulation
 
             if(goal.size() == m_cFootbots.size()){//if all robots have reached the end the simulation is successful.
-               output_file << "All robots at objective" << std::endl;
+               output_file << "All robots reached objective at: " << GetSpace().GetSimulationClock() << std::endl;
             }
          }
       
