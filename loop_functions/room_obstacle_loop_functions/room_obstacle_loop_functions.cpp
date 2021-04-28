@@ -128,10 +128,10 @@ void CRoomobstacleLoopFunctions::PreStep() {
          }
          else{
             goal.push_back(cFootBot.GetId());
-            output_file << cFootBot.GetId() << " has reached the goal" << std::endl;
-         //output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << " Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
-         //CRoomobstacleLoopFunctions::Destroy();
-         // end simulation
+          //output_file << cFootBot.GetId() << " has reached the goal" << std::endl;
+          //output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << " Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
+          //CRoomobstacleLoopFunctions::Destroy();
+
 
             if(goal.size() == m_cFootbots.size()){//if all robots have reached the end the simulation is successful.
                output_file << "All robots reached objective at: " << GetSpace().GetSimulationClock() << std::endl;
