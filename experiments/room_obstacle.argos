@@ -8,7 +8,8 @@
     <system threads="0" />
     <experiment length="60"
                 ticks_per_second="10"
-                random_seed="124" />
+                random_seed="124"
+                time_limit="0" />
                 
     <profiling file = "profile.txt"
 	       format = "table"
@@ -54,7 +55,7 @@
   <loop_functions library="build/loop_functions/room_obstacle_loop_functions/libroom_obstacle_loop_functions"
                   label="room_obstacle_loop_functions">
     <room_obstacle output_folder="results"
-                   output_filename="robot_performance" />
+                   output_filename="robot_performance"/>
   </loop_functions>
 
   <!-- *********************** -->
@@ -62,7 +63,7 @@
   <!-- *********************** -->
 
 <!-- SCENRAIO 1 NAVIGATING PAST OBSTACLES -->
-<arena size="7,7,1" center="0,0,0.5"> <!--Made the arena larger to prevent robots spawning intp the wall-->
+<arena size="7,7,1" center="0,0,0.5"> <!--Made the arena larger to prevent robots spawning into the wall-->
    
    <!--****************** -->
    <!--* Attempted room with light *-->    	

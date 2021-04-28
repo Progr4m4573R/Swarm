@@ -38,6 +38,9 @@ void CRoomobstacleLoopFunctions::Init(TConfigurationNode& t_node) {
       TConfigurationNode& framework_node = GetNode(configuration_tree, "framework");
       TConfigurationNode& experiment_node = GetNode(framework_node, "experiment");
       GetNodeAttribute(experiment_node, "random_seed", random_seed);
+      
+      //Set individual scenario result time for when to display the resulf of the robots reaching the goal
+      GetNodeAttribute(experiment_node, "time_limit", time_limit);
 
       TConfigurationNode& tRoomobstacle = GetNode(t_node, "room_obstacle");      
       
@@ -121,25 +124,23 @@ void CRoomobstacleLoopFunctions::PreStep() {
 	   output_file << Distance(cPos,lightPos) << ",";    // 
       output_file <<cPos.GetX() << "," <<cPos.GetY() << std::endl;
 
-      if (Distance(cPos,lightPos)<1){// if the euclidean distance is less than 1 meter in the simulation
+      if (Distance(cPos,lightPos)<1 && GetSpace().GetSimulationClock() < time_limit){// if the euclidean distance is less than 1 meter in the simulation
       
-         if (std::find(goal.begin(), goal.end(), cFootBot.GetId()) != goal.end()){ 
-            //If the robot has already reached the end then do nothing
-         }
-         else{
-            goal.push_back(cFootBot.GetId());
-          //output_file << cFootBot.GetId() << " has reached the goal" << std::endl;
-          //output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << " Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
-          //CRoomobstacleLoopFunctions::Destroy();
-
+            if (std::find(goal.begin(), goal.end(), cFootBot.GetId()) != goal.end()){ 
+               //If the robot has already reached the end then do nothing
+            }
+            else{
+               goal.push_back(cFootBot.GetId());
+            //output_file << cFootBot.GetId() << " has reached the goal" << std::endl;
+            //output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << " Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
+            //CRoomobstacleLoopFunctions::Destroy();
 
             if(goal.size() == m_cFootbots.size()){//if all robots have reached the end the simulation is successful.
-               output_file << "All robots reached objective at: " << GetSpace().GetSimulationClock() << std::endl;
-            }
+               cout << "All robots reached objective at: " << GetSpace().GetSimulationClock() << std::endl;
+            }             
          }
-      
-      }
-      //possible add a time limit and if robots fail to reach goal in that time print out something?
+      } 
+         //possible add a time limit and if robots fail to reach goal in that time print out something?       
    }
 }
 /****************************************/

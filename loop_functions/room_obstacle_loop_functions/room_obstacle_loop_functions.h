@@ -1,6 +1,7 @@
 #ifndef roomobstacle_LOOP_FUNCTIONS_H
 #define roomobstacle_LOOP_FUNCTIONS_H
 #include <string>
+
 #include <argos3/core/simulator/loop_functions.h>
 
 using namespace argos;
@@ -21,9 +22,11 @@ public:
 private:
 
    int random_seed;
+   int time_limit;
    std::string output_folder;
    std::string output_filename;
    std::ofstream output_file;
+
 };
 
 #endif
