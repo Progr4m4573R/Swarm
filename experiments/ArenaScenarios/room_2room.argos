@@ -66,9 +66,9 @@
 <arena size="7,7,1" center="0,0,0.5"> 
    
    <!--****************** -->
-   <!--* Attempted room with light *-->    	
+   <!--* Attempted room with light *-->    	<!--Oritentation is in the order X,Y,Z , MAX z value is 1-->
     <light id="light"
-           position="1,-2,0.5"
+           position="1,-2,0.7"  
            orientation="0,0,0"
            color="yellow"
            intensity="3.0"
@@ -98,19 +98,19 @@
     -->
 
 <!--Right walls-->
-  <box id="wall 1" size="2.9,0.1,0.5" movable="false">
+  <box id="wall 1" size="1.5.9,0.1,0.2" movable="false">
     <body position="1,-1.5,0" orientation="0,0,0" />
   </box>
 
-    <box id="wall 2" size="1.8,0.1,0.5" movable="false">
+    <box id="wall 2" size="1.8,0.1,0.2" movable="false">
     <body position="-1.6,-1.5,0" orientation="0,0,0" />
   </box>
 <!--Left walls-->
-    <box id="wall 3" size="2,0.1,0.5" movable="false">
+    <box id="wall 3" size="2,0.1,0.2" movable="false">
     <body position="-1.5,1.5,0" orientation="0,0,0" />
   </box>
 
-  <box id="wall 4" size="2,0.1,0.5" movable="false">
+  <box id="wall 4" size="1.5,0.1,0.2" movable="false">
     <body position="1.5,1.5,0" orientation="0,0,0" />
   </box>
     <!--

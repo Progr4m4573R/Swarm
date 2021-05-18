@@ -68,7 +68,7 @@
    <!--****************** -->
    <!--* Attempted room with light *-->    	
     <light id="light"
-           position="5,2.5,0.5"
+           position="5,2.5,0.7"
            orientation="0,0,0"
            color="yellow"
            intensity="3.0"
@@ -100,7 +100,7 @@
       <position method="uniform" min="2,2,0" max="5,5,0" />
       <orientation method="uniform" min="0,0,0" max="360,0,0" />
       <entity quantity="5" max_trials="100">
-        <box id="b" size="0.3,0.3,0.5" movable="false" />
+        <box id="b" size="0.3,0.3,0.2" movable="false" />
       </entity>
     </distribute>
 
@@ -113,7 +113,7 @@
       <position method="uniform" min="2,2,0" max="5,5,0" />
       <orientation method="constant" values="0,0,0" />
       <entity quantity="5" max_trials="100">
-        <cylinder id="c" height="0.5" radius="0.15" movable="false" />
+        <cylinder id="c" height="0.2" radius="0.15" movable="false" />
       </entity>
     </distribute>
   </arena>

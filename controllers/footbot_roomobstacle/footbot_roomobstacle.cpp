@@ -156,6 +156,8 @@ CVector2 CFootBotNavigation::VectorToLight() {
 /****************************************/
 
 CVector2 CFootBotNavigation::FlockingVector() {
+
+
    /* Get the camera readings */
    const CCI_ColoredBlobOmnidirectionalCameraSensor::SReadings& sReadings = m_pcCamera->GetReadings();
    /* Go through the camera readings to calculate the flocking interaction vector */
@@ -193,7 +195,6 @@ CVector2 CFootBotNavigation::FlockingVector() {
             ++unBlobsSeen;
          }
       }
-
       if(unBlobsSeen > 0) {
          /* Divide the accumulator by the number of blobs seen */
          cAccum /= unBlobsSeen;
@@ -215,6 +216,8 @@ CVector2 CFootBotNavigation::FlockingVector() {
 /****************************************/
 /****************************************/
 
+
+
 void CFootBotNavigation::SetWheelSpeedsFromVector(const CVector2& c_heading) {
 
 //---------------------------------added to allow robot to avoid obstacles-----------------------------
@@ -231,21 +234,12 @@ void CFootBotNavigation::SetWheelSpeedsFromVector(const CVector2& c_heading) {
     */
    CRadians cAngle = cAccumulator.Angle();
 
-   if(m_cGoStraightAngleRange.WithinMinBoundIncludedMaxBoundIncluded(cAngle) &&
-      cAccumulator.Length() < m_fDelta && CFootBotNavigation::VectorToLight().Length()<0) {// If the vector to light is not increasing, meaning that we cannot see the light, then we can move at random
-      /* Go straight */
-      m_pcWheels->SetLinearVelocity(m_fWheelVelocity, m_fWheelVelocity);
-      std::cout <<"Exploring...."<< VectorToLight() << std::endl;
-
-      
-   }
-
-    else if(m_cGoStraightAngleRange.WithinMinBoundIncludedMaxBoundIncluded(cAngle) &&
-      cAccumulator.Length() < m_fDelta){   
+    if(m_cGoStraightAngleRange.WithinMinBoundIncludedMaxBoundIncluded(cAngle) &&
+      cAccumulator.Length() < m_fDelta){// need one more conditionn usch as blob seen   
       
       //--------------------------------------------------Follow the flocking vector------------------------------------------------------------------------	
 
-      std::cout << "Flocking to target..." << std::endl;
+      std::cout <<"Flocking to target..."<< std::endl;
       /* Get the heading angle */
       CRadians cHeadingAngle = c_heading.Angle().SignedNormalize();
       /* Get the length of the heading vector */
@@ -311,7 +305,6 @@ void CFootBotNavigation::SetWheelSpeedsFromVector(const CVector2& c_heading) {
       }
       /* Finally, set the wheel speeds */
       m_pcWheels->SetLinearVelocity(fLeftWheelSpeed, fRightWheelSpeed);
-
 
    }
       //------------------------------------------------------------------------------------------

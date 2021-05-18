@@ -70,23 +70,23 @@
    <!--****************** -->
    <!--* Attempted room with light *-->    	
     <light id="light"
-           position="1,-1,0.5"
+           position="1,-1,0.7"
            orientation="0,0,0"
            color="yellow"
            intensity="3.0"
            medium="leds" />
 
 
-    <box id="wall_north" size="4,0.1,0.5" movable="false">
+    <box id="wall_north" size="4,0.1,0.2" movable="false">
       <body position="0,2,0" orientation="0,0,0" />
     </box>
-    <box id="wall_south" size="4,0.1,0.5" movable="false">
+    <box id="wall_south" size="4,0.1,0.2" movable="false">
       <body position="0,-2,0" orientation="0,0,0" />
     </box>
-    <box id="wall_east" size="0.1,4,0.5" movable="false">
+    <box id="wall_east" size="0.1,4,0.2" movable="false">
       <body position="2,0,0" orientation="0,0,0" />
     </box>
-    <box id="wall_west" size="0.1,4,0.5" movable="false">
+    <box id="wall_west" size="0.1,4,0.2" movable="false">
       <body position="-2,0,0" orientation="0,0,0" />
     </box>
 
