@@ -40,6 +40,8 @@
 
 /* Definition of the foot-bot proximity sensor */
 #include <argos3/plugins/robots/foot-bot/control_interface/ci_footbot_proximity_sensor.h>
+//Allows the use of CRandom
+#include <argos3/core/utility/math/rng.h>
 //-------------------------------------------------------------------------------------------------------------------------------
 /*
  * All the ARGoS stuff in the 'argos' namespace.
@@ -132,7 +134,10 @@ public:
     * In this example controller there is no need for resetting anything, so
     * the function could have been omitted. It's here just for completeness.
     */
-   virtual void Reset() {}
+   virtual void Reset() {
+
+      
+   }
 
    /*
     * Called to cleanup what done by Init() when the experiment finishes.
@@ -152,6 +157,11 @@ protected:
     * Calculates the flocking interaction vector.
     */
    virtual CVector2 FlockingVector();
+
+    /*
+    * Calculates the vector away from detected obstacles.
+    */
+   virtual CVector2 ObstacleVector();
 
    /*
     * Gets a direction vector as input and transforms it into wheel actuation.
@@ -196,6 +206,9 @@ private:
    /* Angle tolerance range to go straight.
     * It is set to [-alpha,alpha]. */
    CRange<CRadians> m_cGoStraightAngleRange;
+
+   //Allow the robot to move in a random vector direction
+   CRandom::CRNG* m_pcRNG;
   //----------------------------------------------------------------------------------------------------------------------------------------------
 };
 

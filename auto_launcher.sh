@@ -41,7 +41,7 @@ rm -rf "experiments/$output_folder" # Delete temporary configuration files (no l
 #or
 # argos3 -c experiments/ArenaScenarios room_empty.argos without script and visualisation is enabled
 
-#TIMELIMIT MUST NOT EXCEED MAX SIMULATION TIME
+#TIMELIMIT MUST NOT EXCEED MAX SIMULATION TIME (EXPERIMENT LENGTH)
 
 #INTERESTING NOTES
 #(sed is a linux command that finds and replaces things)

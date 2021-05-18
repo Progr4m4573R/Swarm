@@ -38,11 +38,11 @@
         <wheel_turning hard_turn_angle_threshold="90"
                        soft_turn_angle_threshold="70"
                        no_turn_angle_threshold="10"
-                       max_speed="60" />
-        <flocking target_distance="35"
+                       max_speed="10" />
+        <flocking target_distance="75"
                   gain="1000"
                   exponent="2" />
-        alpha="7.5" delta="0.1" velocity="5" />
+        < alpha="7.5" delta="0.1" velocity="5" />
       </params>
     </footbot_navigation_controller>
 

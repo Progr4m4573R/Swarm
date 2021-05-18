@@ -1,6 +1,4 @@
-  
-
-  <?xml version="1.0" ?>
+<?xml version="1.0" ?>
 <argos-configuration>
 
   <!-- ************************* -->
@@ -8,10 +6,10 @@
   <!-- ************************* -->
   <framework>
     <system threads="0" />
-    <experiment length="60"
+    <experiment length="600"
                 ticks_per_second="10"
                 random_seed="124"
-                time_limit="0" /> <!--Prints data in the terminal up to this time limit for experimenting, you can start small and keep increasing it until you get an all robots have reached the objective message -->
+                time_limit="1000" /> <!--Prints data in the terminal up to this time limit for experimenting, you can start small and keep increasing it until you get an all robots have reached the objective message -->
 
     <profiling file = "profile.txt"
 	       format = "table"
@@ -40,11 +38,11 @@
         <wheel_turning hard_turn_angle_threshold="90"
                        soft_turn_angle_threshold="70"
                        no_turn_angle_threshold="10"
-                       max_speed="10" />
-        <flocking target_distance="75"
+                       max_speed="60" />
+        <flocking target_distance="35"
                   gain="1000"
                   exponent="2" />
-        < alpha="7.5" delta="0.1" velocity="5" />
+      alpha="7.5" delta="0.1" velocity="5" />
       </params>
     </footbot_navigation_controller>
 
@@ -153,7 +151,7 @@
   <!-- ****************** -->
   <!-- * Visualization * -->
   <!-- ****************** -->
-  <!-- <visualization>
+  <visualization>
     <qt-opengl>
       <camera>
         <placements>
@@ -161,6 +159,6 @@
         </placements>
       </camera>
     </qt-opengl>
-  </visualization> -->
+  </visualization>
 
 </argos-configuration>

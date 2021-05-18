@@ -17,6 +17,7 @@ CFootBotNavigation::CFootBotNavigation() :
    m_pcLEDs(NULL),
    m_pcCamera(NULL),
    m_cAlpha(10.0f),
+   m_pcRNG(NULL),//Added to create random vector
    m_fDelta(0.5f),
    m_fWheelVelocity(2.5f),
    m_cGoStraightAngleRange(-ToRadians(m_cAlpha),
@@ -95,7 +96,9 @@ void CFootBotNavigation::Init(TConfigurationNode& t_node) {
    m_pcLEDs   = GetActuator<CCI_LEDsActuator                          >("leds");
    m_pcCamera = GetSensor  <CCI_ColoredBlobOmnidirectionalCameraSensor>("colored_blob_omnidirectional_camera");
    //-------------------------------added to allow the robots to see----------------------------
-   m_pcProximity = GetSensor  <CCI_FootBotProximitySensor      >("footbot_proximity"    );
+   m_pcProximity = GetSensor  <CCI_FootBotProximitySensor      >("footbot_proximity");
+   //---------------------------Addint random vector to enable the robots to move when stuck---------------------
+
    /*
     * Parse the config file
     */
@@ -122,6 +125,7 @@ void CFootBotNavigation::Init(TConfigurationNode& t_node) {
    m_pcCamera->Enable();
    /* Set beacon color to all red to be visible for other robots */
    m_pcLEDs->SetSingleColor(12, CColor::RED);
+   m_pcRNG = CRandom::CreateRNG("argos");
 }
 
 /****************************************/
@@ -129,7 +133,7 @@ void CFootBotNavigation::Init(TConfigurationNode& t_node) {
 
 void CFootBotNavigation::ControlStep() {
    //If target is seen 
-   SetWheelSpeedsFromVector(VectorToLight() + FlockingVector());
+   SetWheelSpeedsFromVector(VectorToLight() + FlockingVector() + ObstacleVector());
 
 }
 
@@ -151,6 +155,11 @@ CVector2 CFootBotNavigation::VectorToLight() {
    }
    return cAccum;
 }
+
+/****************************************/
+/****************************************/
+
+
 
 /****************************************/
 /****************************************/
@@ -213,9 +222,42 @@ CVector2 CFootBotNavigation::FlockingVector() {
    }
 }
 
-/****************************************/
-/****************************************/
+/************************Preventing swarm from getting separated and stuck by enabling individual avoidance and deadlock counter****************/
 
+
+CVector2 CFootBotNavigation::ObstacleVector() {
+   /* Get readings from proximity sensor */
+   const CCI_FootBotProximitySensor::TReadings& tProxReads = m_pcProximity->GetReadings();
+   
+   /* Sum them together */
+   CVector2 cAccumulator;
+
+   for(size_t i = 0; i < tProxReads.size(); ++i) {
+      cAccumulator += CVector2(tProxReads[i].Value, tProxReads[i].Angle);
+   }
+
+   if(cAccumulator.Length() == 0)
+      return CVector2(1, 0); // Drive forward if no obstacles detected
+
+   /* Average based on number of sensors */
+   cAccumulator /= tProxReads.size();
+
+   /* Normalise the vector */
+   cAccumulator.Normalize();
+
+   /* Invert vector to point away from detected obstacles */
+   cAccumulator *= -1;
+
+   /* Add a random vector to help escape deadlock situations  */
+   cAccumulator += CVector2(m_pcRNG->Gaussian(0.5), m_pcRNG->Uniform(CRadians::UNSIGNED_RANGE));
+
+   /* Increase the influence of the vector */
+   cAccumulator *= 3;
+
+   return cAccumulator;
+}
+
+/****************************************/
 
 
 void CFootBotNavigation::SetWheelSpeedsFromVector(const CVector2& c_heading) {
@@ -239,7 +281,7 @@ void CFootBotNavigation::SetWheelSpeedsFromVector(const CVector2& c_heading) {
       
       //--------------------------------------------------Follow the flocking vector------------------------------------------------------------------------	
 
-      std::cout <<"Flocking to target..."<< std::endl;
+      //std::cout <<"Flocking to target..."<< std::endl;
       /* Get the heading angle */
       CRadians cHeadingAngle = c_heading.Angle().SignedNormalize();
       /* Get the length of the heading vector */
