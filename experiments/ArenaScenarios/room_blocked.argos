@@ -13,8 +13,9 @@
     <system threads="0" />
     <experiment length="60"
                 ticks_per_second="10"
-                random_seed="124" />
-                
+                random_seed="124"
+                time_limit="0" /> <!--Prints data in the terminal up to this time limit for experimenting, you can start small and keep increasing it until you get an all robots have reached the objective message -->
+
     <profiling file = "profile.txt"
 	       format = "table"
 	       truncate_file="true"/>        

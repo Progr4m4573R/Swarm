@@ -6,10 +6,11 @@
   <!-- ************************* -->
   <framework>
     <system threads="0" /> <!--*Experiment length goes up in 60s-->
-    <experiment length="240"
+    <experiment length="600"
                 ticks_per_second="10"
                 time_limit="0" 
-                random_seed="124" />
+                random_seed="124"
+                time_limit="0" /> <!--Prints data in the terminal up to this time limit for experimenting, you can start small and keep increasing it until you get an all robots have reached the objective message -->
                 
     <profiling file = "profile.txt"
 	       format = "table"
@@ -93,7 +94,7 @@
     <distribute>
       <position method="uniform" min="1,1,0" max="2,2,0" />
       <orientation method="uniform" min="0,0,0" max="360,0,0" />
-      <entity quantity="3" max_trials="100">
+      <entity quantity="10" max_trials="100">
         <foot-bot id="fb">
           <controller config="fnc" />
         </foot-bot>

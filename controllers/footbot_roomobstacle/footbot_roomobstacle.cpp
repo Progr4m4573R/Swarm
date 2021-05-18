@@ -128,7 +128,9 @@ void CFootBotNavigation::Init(TConfigurationNode& t_node) {
 /****************************************/
 
 void CFootBotNavigation::ControlStep() {
-   	SetWheelSpeedsFromVector(VectorToLight() + FlockingVector());
+   //If target is seen 
+   SetWheelSpeedsFromVector(VectorToLight() + FlockingVector());
+
 }
 
 /****************************************/
@@ -230,9 +232,21 @@ void CFootBotNavigation::SetWheelSpeedsFromVector(const CVector2& c_heading) {
    CRadians cAngle = cAccumulator.Angle();
    if(m_cGoStraightAngleRange.WithinMinBoundIncludedMaxBoundIncluded(cAngle) &&
       cAccumulator.Length() < m_fDelta ) {
-      /* Follow the flocking vector*/
-
-   //--------------------------------------------------------------------------------------------------------------------------	
+      /* Go straight */
+      m_pcWheels->SetLinearVelocity(m_fWheelVelocity, m_fWheelVelocity);
+   }
+   else {
+      /* Turn, depending on the sign of the angle */
+      if(cAngle.GetValue() > 0.0f) {
+         m_pcWheels->SetLinearVelocity(m_fWheelVelocity, 0.0f);
+      }
+      else {
+         m_pcWheels->SetLinearVelocity(0.0f, m_fWheelVelocity);
+      }
+   }
+      
+   
+   //--------------------------------------------------Follow the flocking vector------------------------------------------------------------------------	
 
 
    /* Get the heading angle */
@@ -300,18 +314,16 @@ void CFootBotNavigation::SetWheelSpeedsFromVector(const CVector2& c_heading) {
    }
    /* Finally, set the wheel speeds */
    m_pcWheels->SetLinearVelocity(fLeftWheelSpeed, fRightWheelSpeed);
-}
+
    //------------------------------------------------------------------------------------------
-   else {
-      /* Turn, depending on the sign of the angle */
-      if(cAngle.GetValue() > 0.0f) {
-	 m_pcWheels->SetLinearVelocity(m_fWheelVelocity, 0.0f);
-      }
-      else {
-	 m_pcWheels->SetLinearVelocity(0.0f, m_fWheelVelocity);
-      }
+   /* Turn, depending on the sign of the angle */
+   if(cAngle.GetValue() > 0.0f) {
+   m_pcWheels->SetLinearVelocity(m_fWheelVelocity, 0.0f);
    }
- }
+   else {
+   m_pcWheels->SetLinearVelocity(0.0f, m_fWheelVelocity);
+   }
+}
 
 //---------------------------------------------------------------------------------------	
 

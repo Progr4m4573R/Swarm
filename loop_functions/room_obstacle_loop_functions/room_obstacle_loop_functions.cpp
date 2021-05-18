@@ -105,7 +105,7 @@ void CRoomobstacleLoopFunctions::PreStep() {
 
    for(CSpace::TMapPerType::iterator it = m_cFootbots.begin();
        it != m_cFootbots.end();
-       ++it)
+       ++it)                                                         
    {
       /* Get handle to foot-bot entity */
       CFootBotEntity& cFootBot = *any_cast<CFootBotEntity*>(it->second);
@@ -114,28 +114,26 @@ void CRoomobstacleLoopFunctions::PreStep() {
       CVector2 cPos;
       cPos.Set(cFootBot.GetEmbodiedEntity().GetOriginAnchor().Position.GetX(),
                cFootBot.GetEmbodiedEntity().GetOriginAnchor().Position.GetY());
-     
-      // output_file <<"Clock: "<< GetSpace().GetSimulationClock() << ",";
-      // output_file <<"Robot ID: "<< cFootBot.GetId() << ",";
-      // output_file <<"Robot position: " <<cPos << std::endl;
       
-      output_file <<GetSpace().GetSimulationClock() << ",";
-      output_file << cFootBot.GetId() << ",";
-	   output_file << Distance(cPos,lightPos) << ",";    // 
-      output_file <<cPos.GetX() << "," <<cPos.GetY() << std::endl;
+      output_file <<GetSpace().GetSimulationClock() << ","; // simulation clock
+      output_file << cFootBot.GetId() << ",";// robot id
+	   output_file << Distance(cPos,lightPos) << ",";    // robot distance to target
+      output_file <<cPos.GetX() << "," <<cPos.GetY() << ",";// robot x and y position
+      output_file << (Distance(cPos, lightPos) < 1) << std::endl; // Add a 0 column in the final column to indicate whether a particualr robot is currently within 1 metre of the light source., 0 is flse, 1 is true
 
-      if (Distance(cPos,lightPos)<1 && GetSpace().GetSimulationClock() < time_limit){// if the euclidean distance is less than 1 meter in the simulation
+      //TIMELIMIT MUST NOT EXCEED MAX SIMULATION TIME (EXPERIMENT LENGTH)
+      if (Distance(cPos,lightPos)<1 && GetSpace().GetSimulationClock() < time_limit){// if the euclidean distance is less than 1 meter in the simulation while the time limit has not been reached, if time limit is exceeded then swarm has been unsuccessful in the time given.
       
             if (std::find(goal.begin(), goal.end(), cFootBot.GetId()) != goal.end()){ 
                //If the robot has already reached the end then do nothing
             }
             else{
-               goal.push_back(cFootBot.GetId());
+               goal.push_back(cFootBot.GetId());// robots have just readched the end, add then to goal reached vector                                                                               
             //output_file << cFootBot.GetId() << " has reached the goal" << std::endl;
             //output_file <<"Robot " <<cFootBot.GetId() << ", "<< "Reached the light at position: " << cPos << " Operation took: "<<GetSpace().GetSimulationClock() <<" Seconds" <<std::endl;
             //CRoomobstacleLoopFunctions::Destroy();
 
-            if(goal.size() == m_cFootbots.size()){//if all robots have reached the end the simulation is successful.
+            if(goal.size() == m_cFootbots.size()){//if all robots have reached the end the simulation is successful.onedri
                cout << "All robots reached objective at: " << GetSpace().GetSimulationClock() << std::endl;
             }             
          }

@@ -96,9 +96,6 @@
 	<!--
         We distribute 5 boxes uniformly in position and rotation around Z.
     -->
-
-<!--Right walls-->
-<!--
   <box id="wall 1" size="2.9,0.1,0.5" movable="false">
     <body position="1,-1.5,0" orientation="0,0,0" />
   </box>
@@ -106,8 +103,7 @@
     <box id="wall 2" size="1.8,0.1,0.5" movable="false">
     <body position="-1.6,-1.5,0" orientation="0,0,0" />
   </box>
--->
-<!--Left walls-->
+
     <box id="wall 3" size="2,0.1,0.5" movable="false">
     <body position="-1.5,1.5,0" orientation="0,0,0" />
   </box>
@@ -140,7 +136,7 @@
   <!-- ****************** -->
   <!-- * Visualization * -->
   <!-- ****************** -->
-  <visualization>
+  <!-- <visualization>
     <qt-opengl>
       <camera>
         <placements>
@@ -148,6 +144,6 @@
         </placements>
       </camera>
     </qt-opengl>
-  </visualization>
+  </visualization> -->
 
 </argos-configuration>
