@@ -253,6 +253,10 @@ CVector2 CFootBotNavigation::ObstacleVector() {
 
    /* Increase the influence of the vector */
    cAccumulator *= 3;
+   // trying to make the robot move faster when exploring
+   CRadians c_Accumulator = cAccumulator.Angle().SignedNormalize();
+   Real angle  =cAccumulator.Length();
+   Real fBaseAngularWheelspeed = Min<Real>(angle, m_sWheelTurningParams.MaxSpeed);
 
    return cAccumulator;
 }

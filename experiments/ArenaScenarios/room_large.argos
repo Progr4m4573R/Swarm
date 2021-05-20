@@ -9,7 +9,7 @@
     <experiment length="600"
                 ticks_per_second="10"
                 random_seed="124" 
-                time_limit="0" />
+                time_limit="1000" />
                 
     <profiling file = "profile.txt"
 	       format = "table"
@@ -138,7 +138,7 @@
   <!-- ****************** -->
   <!-- * Visualization * -->
   <!-- ****************** -->
-  <!-- <visualization>
+  <visualization>
     <qt-opengl>
       <camera>
         <placements>
@@ -146,7 +146,7 @@
         </placements>
       </camera>
     </qt-opengl>
-  </visualization> -->
+  </visualization>
 
 </argos-configuration>
 
